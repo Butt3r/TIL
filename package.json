@@ -1,0 +1,24 @@
+{
+  "name": "TIL",
+  "version": "1.0.0",
+  "description": "hello, world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Butt3r/TIL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Butt3r/TIL/issues"
+  },
+  "homepage": "https://github.com/Butt3r/TIL#readme",
+  "devDependencies": {
+    "vuepress": "^1.3.0"
+  }
+}
