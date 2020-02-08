@@ -6,14 +6,12 @@ module.exports = {
   description: 'TIL Document',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'TIL', link: '/about/' },
       { text: 'Blog', link: 'https://butt3r.github.io/'}
    
     ],
     plugins: ['@vuepress/back-to-top'],
     sidebar: [
-      '/about/',
+      '/',
       {
         title: 'Vuepress',
         collapsable: true,

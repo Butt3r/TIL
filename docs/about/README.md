@@ -1,3 +1,7 @@
+---
+Home: true
+---
+
 # Today I Learned
 ---
 

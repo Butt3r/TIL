@@ -1,6 +1,8 @@
 ---
-home: true
-heroImage: /img/purplecircle.png
-heroText: BUTT3R's DOCS
-tagline: Building documentations with Vuepress
+Home: true
 ---
+
+# Today I Learned
+---
+
+This is a personal document based on everyday learning.
