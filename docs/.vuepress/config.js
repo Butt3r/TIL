@@ -6,11 +6,14 @@ module.exports = {
   description: 'TIL Document',
   themeConfig: {
     nav: [
-       { text: 'Blog', link: 'https://butt3r.github.io/'}
+      { text: 'Home', link: '/' },
+      { text: 'TIL', link: '/about/' },
+      { text: 'Blog', link: 'https://butt3r.github.io/'}
    
     ],
+    plugins: ['@vuepress/back-to-top'],
     sidebar: [
-      '/',
+      '/about/',
       {
         title: 'Vuepress',
         collapsable: true,
@@ -86,10 +89,6 @@ module.exports = {
     markdown: {
       lineNumbers: true,
     },
-    plugins: {
-      '@vuepress/back-to-top': {},
-      }
    }
   
-}
-
+  }
