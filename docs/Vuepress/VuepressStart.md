@@ -6,8 +6,6 @@ date: 200209
 :::
 
 Vuepress란?
------------
-
 ---
 
 -	vuepress는 jekyll, gatsby 와 같은 정적 사이트 생성기(SSG)이다.
@@ -15,10 +13,10 @@ Vuepress란?
 -	vuepress는 공식 [Plugin-API](https://vuepress.vuejs.org/plugin/#examples)을 제공한다.
 -	vuepress를 사용하여 쉽고 간단하게 기술 문서를 만들 수 있다!
 
-설치방법
---------
 
+설치방법
 ---
+
 
 앞서 vuepress를 설치하기 전 Github 계정을 생성한다.
 
@@ -46,9 +44,11 @@ yarn add vuepress -D
 
 실행 시 커맨드에서 "은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.” 라는 메세지가 뜰 수 있다. 그럴땐 yarn 혹은 npm을 설치 후 진행한다.
 
+
 ::: warning
 정상적인 설치 후에도 위 메세지가 뜬다면 환경변수에서 path를 설정해준다.
 :::
+
 
 설치가 완료되면 해당 프로젝트 폴더 내부의 package.json을 열어 scripts 부분을 다음과 같이 수정한다.
 
@@ -80,11 +80,11 @@ docs:dev
 
 
 디렉토리 구조
--------------
-
 ---
 
-기본적인 트리 구조는 아래와 같다. 
+
+기본적인 트리 구조는 아래와 같다.
+
 참고[VuepressDirectory](https://vuepress.vuejs.org/guide/directory-structure.html#default-page-routing)
 
 ```
@@ -102,11 +102,12 @@ docs:dev
 :::
 
 Configuration
--------------
-
 ---
 
-심심한 화면을 꾸며주기위해선 config이 필요하다. 위 디렉토리 구조대로 파일을 생성했다면 config.js 파일을 열어 다음과 같이 작성한다.
+
+심심한 화면을 꾸며주기위해선 config이 필요하다.
+
+위 디렉토리 구조대로 파일을 생성했다면 config.js 파일을 열어 다음과 같이 작성한다.
 
 ```
 module.exports = {
@@ -115,8 +116,8 @@ module.exports = {
 }
 ```
 
-README 파일도 root에 있는 경우엔 YAML Front matter로 작성해야한다.
 
+README 파일도 root에 있는 경우엔 YAML Front matter로 작성해야한다.
 README 파일을 열어 다음과 같이 수정한다. 
 참고[DefaultTheme](https://vuepress.vuejs.org/theme/default-theme-config.html#homepage)
 
@@ -136,9 +137,8 @@ features:
 ```
 
 Deploy하는 방법
----------------
-
 ---
+
 
 배포는 깃헙 페이지를 통한 수동 배포와 호스팅 서비스를 통한 자동 배포 방법이 있다.
 
@@ -191,11 +191,12 @@ deploy
 윈도우 유저라면 cmder, git bash와 같은 콘솔 프로그램을 이용한다.
 :::
 
+
 정상적으로 배포가 완료됐다면 생성했던 리포지토리의 gh-pages 브랜치에서 dist 폴더에 빌드된 프로젝트 파일이 있는지 체크한다.
 
 그리고 리포지토리 -> Setting -> github page로 가서 브랜치를 gh-pages로 맞춰두고
 
-**https:<USERNAME>.github.io/<REPO>**
+:point_right: https:<USERNAME>.github.io/<REPO>
 
 위 주소로 접속하여 최종 결과물을 확인한다.
 
@@ -214,6 +215,6 @@ deploy
 -	Heroku
 -	Now
 
-나는 이 중 Netlify를 써본 경험이 있는데 나중에 자세하게 쓰겠다.
+자동배포 방법은 Netlify을 기준으로 나중에 따로 쓰겠다.
 
 간략한 자동배포 방법은 [VuepressDeploy](https://v1.vuepress.vuejs.org/guide/deploy.html#heroku) 여기서 확인할 수 있다.
