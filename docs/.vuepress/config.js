@@ -16,7 +16,7 @@ module.exports = {
         title: 'Vuepress',
         collapsable: true,
         children: [
-          ['/Vuepress/VU', 'vue']
+          ['/Vuepress/VuepressStart', 'Vuepress 시작하기']
         ],
       },
       {
