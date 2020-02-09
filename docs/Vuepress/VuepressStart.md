@@ -1,9 +1,7 @@
 Vuepress 시작하기
 =================
 
-::: tip
-date: 200209
-:::
+> date: 200209
 
 Vuepress란?
 ---
@@ -196,7 +194,7 @@ deploy
 
 그리고 리포지토리 -> Setting -> github page로 가서 브랜치를 gh-pages로 맞춰두고
 
-:point_right: https:<USERNAME>.github.io/<REPO>
+:point_right: https:'USERNAME'.github.io/'REPO'
 
 위 주소로 접속하여 최종 결과물을 확인한다.
 
