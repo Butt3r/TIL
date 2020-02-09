@@ -1,7 +1,9 @@
 Vuepress 시작하기
 =================
 
-:::tip Date: 200209:::
+::: tip
+date: 200209
+:::
 
 Vuepress란?
 -----------
@@ -44,7 +46,9 @@ yarn add vuepress -D
 
 실행 시 커맨드에서 "은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.” 라는 메세지가 뜰 수 있다. 그럴땐 yarn 혹은 npm을 설치 후 진행한다.
 
-:::warning 정상적인 설치 후에도 위 메세지가 뜬다면 환경변수에서 path를 설정해준다.:::
+::: warning
+정상적인 설치 후에도 위 메세지가 뜬다면 환경변수에서 path를 설정해준다.
+:::
 
 설치가 완료되면 해당 프로젝트 폴더 내부의 package.json을 열어 scripts 부분을 다음과 같이 수정한다.
 
@@ -74,12 +78,14 @@ yarn docs:dev # or npm run
 docs:dev
 ```
 
+
 디렉토리 구조
 -------------
 
 ---
 
-기본적인 트리 구조는 아래와 같다. 더 자세한건[VuepressDirectory](https://vuepress.vuejs.org/guide/directory-structure.html#default-page-routing)에서 참고한다.
+기본적인 트리 구조는 아래와 같다. 
+참고[VuepressDirectory](https://vuepress.vuejs.org/guide/directory-structure.html#default-page-routing)
 
 ```
 ├─ docs
@@ -90,7 +96,10 @@ docs:dev
 
 ```
 
-:::tip 라우팅에 관한 내용은 다음에 좀 더 공부한 후에 작성하기 ��:::
+
+::: tip
+라우팅에 관한 내용은 다음에 좀 더 공부한 후에 작성하기
+:::
 
 Configuration
 -------------
@@ -108,7 +117,8 @@ module.exports = {
 
 README 파일도 root에 있는 경우엔 YAML Front matter로 작성해야한다.
 
-README 파일을 열어 다음과 같이 수정한다. 더 자세한건 Vuepress 사이트의[DefaultTheme](https://vuepress.vuejs.org/theme/default-theme-config.html#homepage)예제를 참고한다.
+README 파일을 열어 다음과 같이 수정한다. 
+참고[DefaultTheme](https://vuepress.vuejs.org/theme/default-theme-config.html#homepage)
 
 ```
 ---
@@ -177,7 +187,9 @@ yarn deploy # or npm run
 deploy
 ```
 
-:::warning 윈도우 유저라면 cmder, git bash와 같은 콘솔 프로그램을 이용하거나 나 처럼 한물갔다는 cygwin을 쓰면된다...:::
+::: warning
+윈도우 유저라면 cmder, git bash와 같은 콘솔 프로그램을 이용한다.
+:::
 
 정상적으로 배포가 완료됐다면 생성했던 리포지토리의 gh-pages 브랜치에서 dist 폴더에 빌드된 프로젝트 파일이 있는지 체크한다.
 
@@ -187,7 +199,9 @@ deploy
 
 위 주소로 접속하여 최종 결과물을 확인한다.
 
-:::tip 페이지가 로드되는데 시간이 좀 걸리니 조금 기다린다 (5~10분):::
+:::tip
+페이지가 로드되는데 시간이 좀 걸리니 기다린다.
+:::
 
 ### 자동 배포
 
