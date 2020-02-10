@@ -9,7 +9,6 @@ module.exports = {
       { text: 'Blog', link: 'https://butt3r.github.io/'}
    
     ],
-    plugins: ['@vuepress/back-to-top'],
     sidebar: [
       '/',
       {
@@ -17,7 +16,7 @@ module.exports = {
         collapsable: true,
         children: [
           ['/Vuepress/VuepressStart', 'Vuepress 시작하기'],
-          ['/Vuepress/Neflify', 'Neflify로 배포하기'],
+          ['/Vuepress/Netlify', 'Netlify로 배포하기']
         ],
       },
       {
@@ -85,10 +84,13 @@ module.exports = {
         ],
       },
     ],
-    base: '/TIL/',
+
     markdown: {
       lineNumbers: true
-    }
+    },
+
+    plugins: ['@vuepress/back-to-top'],
+    
    }
   
   }
