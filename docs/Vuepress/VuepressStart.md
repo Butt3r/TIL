@@ -1,4 +1,4 @@
-Vuepress 시작하기
+Vuepress 시작하기 <Badge text="song" />
 =================
 
 > date: 200209
@@ -18,21 +18,21 @@ Vuepress란?
 
 앞서 vuepress를 설치하기 전 Github 계정을 생성한다.
 
-1.	[Github 계정 만들기](https://github.com/join?source=header-home)
+1.	[Github](https://github.com/join?source=header-home)
 2.	리포지토리를 만든다.
 3.	생성한 리포지토리의 주소를 복사한다.
 4.	CMD창을 실행한다.
 
 아래의 명령어로 로컬 저장소에 해당 리포지토리를 다운한다.
 
-```
+```sh
 git clone <리포지토리 클론 주소>
 cd <클론한 프로젝트 폴더명>
 ```
 
 yarn 혹은 npm으로 vuepress를 설치한다.
 
-```
+```sh
 yarn init
 yarn add vuepress -D
 
@@ -50,7 +50,7 @@ yarn add vuepress -D
 
 설치가 완료되면 해당 프로젝트 폴더 내부의 package.json을 열어 scripts 부분을 다음과 같이 수정한다.
 
-```javascript
+```json
  "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
@@ -59,21 +59,21 @@ yarn add vuepress -D
 
 아래의 명령어로 docs 폴더를 생성한다.
 
-```
+```sh
 mkdir docs
 ```
 
 docs폴더에 README 파일을 생성한다.
 
-```
+```sh
 echo '#vuepress 시작!' > docs/README.md
 ```
 
 Development Mode를 실행하여 정상적으로 작동되는지 확인한다.
 
-```
-yarn docs:dev # or npm run
-docs:dev
+```sh
+yarn docs:dev # or npm run docs:dev
+
 ```
 
 
@@ -95,27 +95,25 @@ docs:dev
 ```
 
 
-::: tip
-라우팅에 관한 내용은 다음에 좀 더 공부한 후에 작성하기
-:::
-
 Configuration
 ---
+
 
 
 심심한 화면을 꾸며주기위해선 config이 필요하다.
 
 위 디렉토리 구조대로 파일을 생성했다면 config.js 파일을 열어 다음과 같이 작성한다.
 
-```
+```javascript
 module.exports = {
-  title: 'VuePress world!’,
-  description: 'hello Vue’
+  title: 'VuePress world!',
+  description: 'hello Vue'
 }
 ```
 
 
 README 파일도 root에 있는 경우엔 YAML Front matter로 작성해야한다.
+
 README 파일을 열어 다음과 같이 수정한다. 
 참고[DefaultTheme](https://vuepress.vuejs.org/theme/default-theme-config.html#homepage)
 
@@ -132,6 +130,7 @@ features:
 - title: Performant
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 ---
+
 ```
 
 Deploy하는 방법
@@ -144,7 +143,7 @@ Deploy하는 방법
 
 프로젝트 폴더(docs 폴더 바깥)에 deploy .sh파일을 생성 후 다음과 같이 작성한다.
 
-```python
+```py
 #!/usr/bin/env sh
 
 # abort on errors
@@ -174,15 +173,14 @@ cd -
 
 그리고 pakage.json을 열어 scripts에 다음 내용을 추가한다.
 
-```javascript
-    “deploy”: “sh deploy.sh”
+```json
+"deploy": "sh deploy.sh"
 ```
 
 마지막으로 아래의 명령어로 배포를 실행한다.
 
-```
-yarn deploy # or npm run
-deploy
+```sh
+yarn deploy # or npm run deploy
 ```
 
 ::: warning
@@ -190,8 +188,8 @@ deploy
 :::
 
 
-정상적으로 배포가 완료됐다면 생성했던 리포지토리의 gh-pages 브랜치에서 dist 폴더에 빌드된 프로젝트 파일이 있는지 체크한다.
 
+정상적으로 배포가 완료됐다면 생성했던 리포지토리의 gh-pages 브랜치에서 dist 폴더에 빌드된 프로젝트 파일이 있는지 체크한다.
 그리고 리포지토리 -> Setting -> github page로 가서 브랜치를 gh-pages로 맞춰두고
 
 :point_right: https:'USERNAME'.github.io/'REPO'
@@ -216,3 +214,5 @@ deploy
 자동배포 방법은 Netlify을 기준으로 나중에 따로 쓰겠다.
 
 간략한 자동배포 방법은 [VuepressDeploy](https://v1.vuepress.vuejs.org/guide/deploy.html#heroku) 여기서 확인할 수 있다.
+
+
