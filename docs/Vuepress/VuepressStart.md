@@ -73,7 +73,6 @@ Development Mode를 실행하여 정상적으로 작동되는지 확인한다.
 
 ```sh
 yarn docs:dev # or npm run docs:dev
-
 ```
 
 
