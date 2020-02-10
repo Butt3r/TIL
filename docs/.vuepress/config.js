@@ -44,7 +44,7 @@ module.exports = {
         title: 'WEB',
         collapsable: true,
         children: [
-          ['WEB/WE', 'we'],
+          ['WEB/WebBasic', 'World Wide Web'],
           ['WEB/html', 'HTML'],
         ],
       },
