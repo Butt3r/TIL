@@ -16,7 +16,7 @@ module.exports = {
         collapsable: true,
         children: [
           ['/Vuepress/VuepressStart', 'Vuepress 시작하기'],
-          ['/Vuepress/netlify', 'Netlify'],
+          ['/Vuepress/NetlifyStart', 'Netlify'],
         ],
       },
       {
