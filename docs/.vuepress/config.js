@@ -4,10 +4,10 @@ module.exports = {
   base: '/TIL/',
   title: 'BUTT3R',
   description: 'TIL Document',
+
   themeConfig: {
     nav: [
       { text: 'Blog', link: 'https://butt3r.github.io/'}
-   
     ],
     sidebar: [
       '/',
@@ -16,77 +16,77 @@ module.exports = {
         collapsable: true,
         children: [
           ['/Vuepress/VuepressStart', 'Vuepress 시작하기'],
-          ['/Vuepress/Netlify', 'Netlify로 배포하기']
+          ['/Vuepress/Netlify', 'Netlify로 배포하기'],
         ],
       },
       {
         title: 'Alogrithms',
         collapsable: true,
         children: [
-          ['/Alogrithms/AL', 'al']
+          ['/Alogrithms/AL', 'al'],
         ],
       },
       {
         title: 'Design Pattern',
         collapsable: true,
         children: [
-          ['/Design Pattern/DP', 'dp']
+          ['/Design Pattern/DP', 'dp'],
         ],
       },
       {
         title: 'JAVA',
         collapsable: true,
         children: [
-          ['JAVA/JA', 'ja']
+          ['JAVA/JA', 'ja'],
         ],
       },
       {
         title: 'WEB',
         collapsable: true,
         children: [
-          ['WEB/WE', 'we']
-          ['WEB/HTML', 'HTML']
+          ['WEB/WE', 'we'],
+          ['WEB/html', 'HTML'],
         ],
       },
       {
         title: 'Linux',
         collapsable: true,
         children: [
-          ['Linux/LX', 'lx']
+          ['Linux/LX', 'lx'],
         ],
       },
       {
         title: 'SQL',
         collapsable: true,
         children: [
-          ['SQL/SQ', 'sq']
+          ['SQL/SQ', 'sq'],
         ],
       },
       {
         title: 'Shader',
         collapsable: true,
         children: [
-          ['Shader/SH', 'sh']
+          ['Shader/SH', 'sh'],
         ],
       },
       {
         title: 'CPP',
         collapsable: true,
         children: [
-          ['CPP/CP', 'cp']
+          ['CPP/CP', 'cp'],
         ],
       },
       {
         title: 'UE4',
         collapsable: true,
         children: [
-          ['UE4/UE', 'ue']
+          ['UE4/UE', 'ue'],
         ],
       },
     ],
 
     markdown: {
-      lineNumbers: true
+      lineNumbers: true,
     },
 
     plugins: ['@vuepress/back-to-top'],
