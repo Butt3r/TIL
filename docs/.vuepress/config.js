@@ -16,7 +16,8 @@ module.exports = {
         title: 'Vuepress',
         collapsable: true,
         children: [
-          ['/Vuepress/VuepressStart', 'Vuepress 시작하기']
+          ['/Vuepress/VuepressStart', 'Vuepress 시작하기'],
+          ['/Vuepress/Neflify', 'Neflify로 배포하기'],
         ],
       },
       {
@@ -45,6 +46,7 @@ module.exports = {
         collapsable: true,
         children: [
           ['WEB/WE', 'we']
+          ['WEB/HTML', 'HTML']
         ],
       },
       {
@@ -85,8 +87,8 @@ module.exports = {
     ],
     base: '/TIL/',
     markdown: {
-      lineNumbers: true,
-    },
+      lineNumbers: true
+    }
    }
   
   }
