@@ -22,7 +22,7 @@ ARPANET은 본래 군사 연구용 목적으로 구축되었지만 대학교와 
 
 그리고 팀 버너스리는 WWW란 최초의 웹 브라우저를 만들고 1990년 12월, 최초의 웹 사이트를 만드는데 성공했다.
 
-[http://info.cern.ch/\]
+<http://info.cern.ch/>
 
 WWW
 ---
@@ -41,7 +41,7 @@ WWW
 
 URL이란 Uniform Resource Locator의 약자로 네트워크 상의 존재하는 자원의 위치와 종류를 알려주기 위한 일련의 규칙이며, 다른 자원들과 구분되는 유일한 주소 식별자이다.
 
-예로 [http://www.hello.com/en/index.html] 이러한 주소 형태를 URL이라 부르고
+예로 <http://www.hello.com/en/index.html> 이러한 주소 형태를 URL이라 부르고
 
 **http**는 프로토콜, **www.hello.com** 은 도메인 이름이자 웹 서버,
 
@@ -51,7 +51,9 @@ URL이란 Uniform Resource Locator의 약자로 네트워크 상의 존재하는
 
 HTTP란 Hypertext Transfer Protocol의 약자로 WWW상에서 하이퍼텍스트를 주고받을 수 있는 전송 프로토콜(통신규약)이다. 즉, HTTP라는 약속 아래 클라이언트(사용자)가 웹 브라우저로 웹 서버에 있는 자원을 요청하면 서버(서비스 제공자)가 요청에 응답하는 것으로 어떤 종류의 데이터든 전송할 수 있게 설계되어있다.
 
-::: tip HTTP 프로토콜은 웹에서만 사용하는 TCP/IP 통신 위에서 동작하며 기본 포트는 80번이다.:::
+::: tip
+HTTP 프로토콜은 웹에서만 사용하는 TCP/IP 통신 위에서 동작하며 기본 포트는 80번이다.
+:::
 
 ### HTML
 
@@ -59,7 +61,9 @@ HTML이란 HyperText Markup Language 의 약자로 WWW문서를 작성하는 웹
 
 HTML의 이러한 원리로 다양하고 간편한 정보 검색이 가능해졌고 WWW은 짧은 시간안에 대중들로 전파되었다.
 
-::: warning 심화적인 내용은 따로 포스팅해서 정리:::
+::: warning 
+심화적인 내용은 따로 포스팅해서 정리
+:::
 
 인터넷 vs 웹
 -------------
