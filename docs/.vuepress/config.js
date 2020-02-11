@@ -49,6 +49,13 @@ module.exports = {
         ],
       },
       {
+        title: 'Network',
+        collapsable: true,
+        children: [
+          ['Network/LX', 'ne'],
+        ],
+      },
+      {
         title: 'Linux',
         collapsable: true,
         children: [
@@ -70,10 +77,10 @@ module.exports = {
         ],
       },
       {
-        title: 'CPP',
+        title: 'C++',
         collapsable: true,
         children: [
-          ['CPP/CP', 'cp'],
+          ['C++/CP', 'cp'],
         ],
       },
       {
