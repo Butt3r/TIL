@@ -96,7 +96,7 @@ module.exports = {
       lineNumbers: true,
     },
 
-    plugins: ['@vuepress/back-to-top'],
+    plugins: ['@vuepress/back-to-top', true],
     
    }
   
