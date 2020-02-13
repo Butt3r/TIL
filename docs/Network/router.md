@@ -1,4 +1,4 @@
-Router란 무엇인가 <Badge text="one" type="warn"  /> <Badge text="song" />
+Router란 무엇인가 <Badge text="song" />
 ===============
 
 > date: 200211  
@@ -35,13 +35,12 @@ WAN 포트에 케이블을 연결하면 공인IP를 할당받을 수 있고, LAN
 사설IP로 인터넷을 사용하기 위해서는 공인IP로 변환되어야하며 공유기는 공인IP로 여러개의 기기가 인터넷에 접속할 수 있게
 변환해주는 역할을 한다.
 <br>
+<br>
 ::: tip
 공유기도 네트워크의 일부로서 공용IP와 사설IP가 부여되며   
 이를 gateway adress 혹은 router adress라 부른다.
 :::   
 
-<br>
-<br>
 핵심 개념 정리
 --------------
 
