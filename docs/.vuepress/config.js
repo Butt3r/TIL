@@ -52,7 +52,8 @@ module.exports = {
         title: 'Network',
         collapsable: true,
         children: [
-          ['Network/LX', 'ne'],
+          ['Network/router', 'Router'],
+          ['Network/router-nat', 'NAT'],
         ],
       },
       {
@@ -91,11 +92,9 @@ module.exports = {
         ],
       },
     ],
-
     markdown: {
-      lineNumbers: true,
-    },
-
+    lineNumbers: true
+  },
     plugins: ['@vuepress/back-to-top', true],
     
    }
