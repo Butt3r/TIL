@@ -22,7 +22,7 @@ ARPANET은 본래 군사 연구용 목적으로 구축되었지만 대학교와 
 
 그리고 팀 버너스리는 WWW란 최초의 웹 브라우저를 만들고 1990년 12월, 최초의 웹 사이트를 만드는데 성공했다.
 
-http://info.cern.ch/
+<http://info.cern.ch/>
 
 WWW
 ---
@@ -41,7 +41,7 @@ WWW
 
 URL이란 Uniform Resource Locator의 약자로 네트워크 상의 존재하는 자원의 위치와 종류를 알려주기 위한 일련의 규칙이며, 다른 자원들과 구분되는 유일한 주소 식별자이다.
 
-예로 http://www.hello.com/en/index.html 이러한 주소 형태를 URL이라 부르고
+예로 <http://www.hello.com/en/index.html> 이러한 주소 형태를 URL이라 부르고
 
 **http**는 프로토콜, **www.hello.com** 은 도메인 이름이자 웹 서버,
 
