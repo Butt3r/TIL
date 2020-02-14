@@ -91,6 +91,13 @@ module.exports = {
           ['UE4/UE', 'ue'],
         ],
       },
+      {
+        title: 'Error',
+        collapsable: true,
+        children: [
+          ['Error/error-c2664', 'C2664'],
+        ],
+      },
     ],
     markdown: {
     lineNumbers: true
