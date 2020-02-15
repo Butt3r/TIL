@@ -54,6 +54,7 @@ module.exports = {
         children: [
           ['Network/router', 'Router'],
           ['Network/router-nat', 'NAT'],
+          ['Network/port-forwarding', 'Port forwarding'],
         ],
       },
       {
