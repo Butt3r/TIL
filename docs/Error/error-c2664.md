@@ -1,7 +1,7 @@
 C2664 <Badge text="Error" type="error"/>
 ========================================
 
-> IDE: Visual studio 2017
+> IDE: Visual studio 2017   
 > language: C++
 
 에러 발생 지점
@@ -37,8 +37,10 @@ C2664는 유니코드로 인해 발생하는 대표적인 오류 중 하나이�
 [참고](https://docs.microsoft.com/ko-kr/windows/desktop/Intl/string-function-differences)  
 <br>
 
-::: tip 이 선에서 오류가 해결된다면 다행이지만 C2664는 유니코드외에 다른 이유로도 발생할 수 있다.  
-그때 필요한 것이 두번째 방법 즉, 에러의 원인이 되는 인수 부분에 const를 붙이는 것이다.:::
+::: tip
+이 선에서 오류가 해결된다면 다행이지만 C2664는 유니코드외에 다른 이유로도 발생할 수 있다.  
+그때 필요한 것이 두번째 방법 즉, 에러의 원인이 되는 인수 부분에 const를 붙이는 것이다.
+:::
 
 ### 2. CONST를 붙인다.
 
