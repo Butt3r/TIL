@@ -36,6 +36,8 @@ DHCP 단점
 -	**DHCP 서버 의존**
 
 DHCP서버가 다운되면 IP할당이 멈추므로 인터넷을 사용할 수 없게된다.<br>
+<br>   
+
 
 DHCP 동작 원리
 --------------
@@ -65,4 +67,5 @@ DHCP Offer 메세지를 수신한 단말은 "네! 사용할게요 저에게 그 
 <br>
 <br>
 
-더 자세한건 참고[위키](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%ED%98%B8%EC%8A%A4%ED%8A%B8_%EA%B5%AC%EC%84%B1_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)
+더 자세한건 참고   
+[위키](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%ED%98%B8%EC%8A%A4%ED%8A%B8_%EA%B5%AC%EC%84%B1_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)
