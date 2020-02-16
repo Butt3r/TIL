@@ -55,6 +55,7 @@ module.exports = {
           ['Network/router', 'Router'],
           ['Network/router-nat', 'NAT'],
           ['Network/port-forwarding', 'Port forwarding'],
+          ['Network/dhcp', 'DHCP'],
         ],
       },
       {
