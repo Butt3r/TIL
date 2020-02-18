@@ -23,7 +23,8 @@ module.exports = {
         title: 'Alogrithms',
         collapsable: true,
         children: [
-          ['/Alogrithms/AL', 'al'],
+          ['/Alogrithms/8393', 'BOJ 8393'],
+          ['/Alogrithms/1924', 'BOJ 1924'],
         ],
       },
       {
