@@ -38,7 +38,7 @@ module.exports = {
         title: 'JAVA',
         collapsable: true,
         children: [
-          ['JAVA/JA', 'ja'],
+          ['JAVA/java_basic', 'About Java'],
         ],
       },
       {
