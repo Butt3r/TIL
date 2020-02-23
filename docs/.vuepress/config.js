@@ -20,14 +20,6 @@ module.exports = {
         ],
       },
       {
-        title: 'Alogrithms',
-        collapsable: true,
-        children: [
-          ['/Alogrithms/8393', '1부터 n까지'],
-          ['/Alogrithms/1924', '2007년'],
-        ],
-      },
-      {
         title: 'JAVA',
         collapsable: true,
         children: [
@@ -71,6 +63,14 @@ module.exports = {
         collapsable: true,
         children: [
           ['Linux/LX', 'lx'],
+        ],
+      },
+      {
+        title: 'Alogrithms',
+        collapsable: true,
+        children: [
+          ['/Alogrithms/8393', '1부터 n까지'],
+          ['/Alogrithms/1924', '2007년'],
         ],
       },
       {
