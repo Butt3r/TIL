@@ -15,37 +15,37 @@ module.exports = {
         title: 'Vuepress',
         collapsable: true,
         children: [
-          ['/Vuepress/VuepressStart', 'Vuepress 시작하기'],
-          ['/Vuepress/NetlifyStart', 'Netlify'],
+          ['/Vuepress/vuepress-start', 'Vuepress 시작하기'],
+          ['/Vuepress/netlify-start', 'Netlify'],
         ],
       },
       {
         title: 'Alogrithms',
         collapsable: true,
         children: [
-          ['/Alogrithms/8393', 'BOJ 8393'],
-          ['/Alogrithms/1924', 'BOJ 1924'],
-        ],
-      },
-      {
-        title: 'Design Pattern',
-        collapsable: true,
-        children: [
-          ['/Design Pattern/DP', 'dp'],
+          ['/Alogrithms/8393', '1부터 n까지'],
+          ['/Alogrithms/1924', '2007년'],
         ],
       },
       {
         title: 'JAVA',
         collapsable: true,
         children: [
-          ['JAVA/java_basic', 'About Java'],
+          ['JAVA/java-basic', 'About Java'],
+        ],
+      },
+      {
+        title: 'Spring',
+        collapsable: true,
+        children: [
+          ['Spring/s', 'test_spring'],
         ],
       },
       {
         title: 'WEB',
         collapsable: true,
         children: [
-          ['WEB/WebBasic', 'World Wide Web'],
+          ['WEB/web-basic', 'World Wide Web'],
           ['WEB/html', 'HTML'],
         ],
       },
@@ -60,13 +60,6 @@ module.exports = {
         ],
       },
       {
-        title: 'Linux',
-        collapsable: true,
-        children: [
-          ['Linux/LX', 'lx'],
-        ],
-      },
-      {
         title: 'SQL',
         collapsable: true,
         children: [
@@ -74,10 +67,24 @@ module.exports = {
         ],
       },
       {
-        title: 'Shader',
+        title: 'Linux',
         collapsable: true,
         children: [
-          ['Shader/SH', 'sh'],
+          ['Linux/LX', 'lx'],
+        ],
+      },
+      {
+        title: 'Design Pattern',
+        collapsable: true,
+        children: [
+          ['/Design Pattern/DP', 'dp'],
+        ],
+      },
+      {
+        title: 'Docker',
+        collapsable: true,
+        children: [
+          ['Docker/SH', 'sh'],
         ],
       },
       {
@@ -88,13 +95,6 @@ module.exports = {
         ],
       },
       {
-        title: 'UE4',
-        collapsable: true,
-        children: [
-          ['UE4/UE', 'ue'],
-        ],
-      },
-      {
         title: 'Error',
         collapsable: true,
         children: [
@@ -102,11 +102,14 @@ module.exports = {
         ],
       },
     ],
+  },
+
     markdown: {
     lineNumbers: true
   },
-    plugins: ['@vuepress/back-to-top', true],
+
+    plugins: ['@vuepress/back-to-top'],
     
    }
   
-  }
+
