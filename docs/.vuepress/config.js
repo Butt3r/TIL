@@ -69,7 +69,7 @@ module.exports = {
         title: 'Alogrithms',
         collapsable: true,
         children: [
-          ['/Alogrithms/8393', '1부터 n까지'],
+          ['/Alogrithms/Recursion-1', '재귀함수1'],
           ['/Alogrithms/1924', '2007년'],
         ],
       },
