@@ -73,7 +73,7 @@ hello world!
 
 그럼 재귀함수는 어떤 상황에서 쓰이는가
 
-1. 0부터 n까지의 합
+## 1. 0부터 n까지의 합
 -------------------
 
 
@@ -96,7 +96,7 @@ public static int func(int n) { // 0부터 n까지의 합을 구하는 함수
 15  
 :::
 
-2. Factorial
+## 2. Factorial
 ------------
 
 
@@ -118,7 +118,7 @@ public static int clac(int n) { // n의 팩토리얼 값을 구하는 함수
 120  
 :::
 
-3. Fibonacci
+## 3. Fibonacci
 ------------
 
 
@@ -140,7 +140,7 @@ public class Fibonacci {
 55  
 :::
 
-4. 그 외
+## 4. 그 외
 --------
 
 
