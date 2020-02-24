@@ -73,11 +73,6 @@ hello world!
 
 그럼 재귀함수는 어떤 상황에서 쓰이는가
 
-재귀함수로 가능한 것 대표적인 세가지
-------------------------------------
-<br>   
-
-
 1. 0부터 n까지의 합
 -------------------
 
@@ -104,6 +99,7 @@ public static int func(int n) { // 0부터 n까지의 합을 구하는 함수
 2. Factorial
 ------------
 
+
 ```Java
 public class Factorial {
   public static void main(String [] args) {
@@ -125,6 +121,7 @@ public static int clac(int n) { // n의 팩토리얼 값을 구하는 함수
 3. Fibonacci
 ------------
 
+
 ```Java
 public class Fibonacci {
   public static void main(String [] args) {
@@ -145,6 +142,7 @@ public class Fibonacci {
 
 4. 그 외
 --------
+
 
 ### x의 n승 구하기
 
