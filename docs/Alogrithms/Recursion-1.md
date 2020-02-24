@@ -1,15 +1,14 @@
 Recursion - 1 <Badge text="song" />
-=========
+===================================
 
 > 자기자신을 호출하는 함수
-
 
 순환의 개념
 -----------
 
-Recursion이란 순환을 의미하고 Recursion 함수라함은 재귀함수를 말한다.   
+Recursion이란 순환을 의미하고 Recursion 함수라함은 재귀함수를 말한다.
 
-#### Recursion 예제
+예제
 
 ```Java
 public class Recursion {
@@ -24,7 +23,7 @@ public class Recursion {
 }
 ```
 
-::: detalis 결과   
+::: details 결과  
 hello world!  
 hello world!  
 .  
@@ -32,14 +31,11 @@ hello world!
 .  
 :::
 
-컴파일 결과를 통해 재귀함수는 무한 루프에 빠진다는 점을 알 수 있다.   
-즉, 재귀함수란 **항상 자기자신을 호출하는 함수의 형태** 이다. 
-<br>
-
+컴파일 결과를 통해 재귀함수는 무한 루프에 빠진다는 점을 알 수 있다.  
+즉, 재귀함수란 **항상 자기자신을 호출하는 함수의 형태** 이다.<br>
 
 무한루프를 막는 방법
 --------------------
-
 
 ```Java
 public class Recursion {
@@ -60,30 +56,31 @@ public class Recursion {
 }
 ```
 
-::: detalis 결과   
+::: details 결과  
 hello world!  
 hello world!  
 hello world!  
-hello world!   
+hello world!  
 hello world!  
 :::
 
-이번 예제에서는
-더 이상 무한루프에 빠지지않고  
-오로지 다섯번만 출력됨을 확인할 수 있다.   
-
+이번 예제에서는 더 이상 무한루프에 빠지지않고  
+오로지 다섯번만 출력됨을 확인할 수 있다.
 
 어떻게 가능하느냐  
  - base case : if문으로 Recursion에 빠지지 않는 경우를 만듦  
- - recursive case: Recursion을 반복했을 때 base case로 수렴하게함     
+ - recursive case: Recursion을 반복했을 때 base case로 수렴하게함
 
 그럼 재귀함수는 어떤 상황에서 쓰이는가
 
 재귀함수로 가능한 것 대표적인 세가지
 ------------------------------------
+<br>   
 
 
-## 1.	0부터 n까지의 합
+1. 0부터 n까지의 합
+-------------------
+
 
 ```Java
 public class Recursion {
@@ -100,11 +97,12 @@ public static int func(int n) { // 0부터 n까지의 합을 구하는 함수
 }
 ```
 
-::: detalis 결과   
+::: details 결과  
 15  
 :::
 
-## 2.	Factorial
+2. Factorial
+------------
 
 ```Java
 public class Factorial {
@@ -120,12 +118,12 @@ public static int clac(int n) { // n의 팩토리얼 값을 구하는 함수
 }
 ```
 
-::: detalis 결과   
-120   
+::: details 결과  
+120  
 :::
 
-## 3.	Fibonacci 
-
+3. Fibonacci
+------------
 
 ```Java
 public class Fibonacci {
@@ -141,11 +139,12 @@ public class Fibonacci {
 }
 ```
 
-::: detalis 결과    
-55   
+::: details 결과  
+55  
 :::
 
-## 4.	그 외 
+4. 그 외
+--------
 
 ### x의 n승 구하기
 
