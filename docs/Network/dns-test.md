@@ -31,9 +31,7 @@ DNS가 도입되기 이전엔 hosts.txt가 있었다. hosts파일은 일종의 �
 DNS 구조
 --------
 
-::: warning   
-포스트 준비 중!   
-:::
+
 
 #### 도메인 네임 공간(Domain Name Space)
 
@@ -47,7 +45,3 @@ DNS 구조
 
 DNS 원리
 --------
-
-::: warning   
-포스트 준비 중!   
-:::
