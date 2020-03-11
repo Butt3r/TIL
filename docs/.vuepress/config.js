@@ -49,7 +49,7 @@ module.exports = {
           ['Network/router-nat', 'NAT'],
           ['Network/port-forwarding', 'Port forwarding'],
           ['Network/dhcp', 'DHCP'],
-          ['Network/dns-test', 'DNS'],
+          ['Network/dns', 'DNS'],
         ],
       },
       {
