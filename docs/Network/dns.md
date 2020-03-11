@@ -45,17 +45,14 @@ ex) blog.example.com(.)
 
 
 루트의 하위는 여러 레벨로 나뉘는데 최상위 레벨 도메인(Top Level Domain) , 제 2 레벨 도메인(Second Level Domain), 제 3 레벨 도메인 또는 서브 도메인(Third Level/Sub Domain)으로 구성되어있다. 이 노드들은 크기가 최대 63바이트인 레이블을 가지며
-같은 레벨 안에서 유일한 이름을 갖는다. (중복X!)   
+같은 레벨 안에서 유일한 이름을 갖는다.
 
-<img src="https://t1.daumcdn.net/cfile/tistory/25477D4E5916B32812" alt="DNS 트리 구조" height="500px" />   
-
-
-<img src=https://www.cloudflare.com/img/learning/dns/glossary/dns-zone/dns-zone.png alt="DNS 구조" height="400px" />
-
-> 이미지 출처: https://www.cloudflare.com/ko-kr/learning/dns/glossary/dns-zone/   
+<br>
 <br>
 
-
+<img src="https://t1.daumcdn.net/cfile/tistory/25477D4E5916B32812" alt="DNS 트리 구조" height="500px" />   
+<br>
+<br>
 
 DNS는 계층적 데이터베이스이다.   
 즉, 도메인 네임들은 하나의 서버에 저장되어지는게 아니라 각각의 독자적인 서버로 분산되어 계층적 구조로 저장된다.
@@ -102,3 +99,5 @@ DNS의 기본 동작 원리
 
 
 ---
+- 이미지 출처 [데이터 통신과 컴퓨터 네트워크](https://terms.naver.com/imageDetail.nhn?docId=2271996&imageUrl=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F3578_000_1%2F20141023224649357_CGWCGY0RK.jpg%2Fka8_209_i1.jpg%3Ftype%3Dm4500_4500_fst_n%26wm%3DY)
+- 참고 [인터넷 이용의 기반 DNS의 이해와 DNS 보안](https://www.kisa.or.kr/uploadfile/201310/201310071959231513.pdf)
