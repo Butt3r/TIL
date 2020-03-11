@@ -41,10 +41,9 @@ ex) blog.example.com(.)
 
 루트의 하위는 여러 레벨로 나뉘는데 최상위 레벨 도메인(Top Level Domain) , 제 2 레벨 도메인(Second Level Domain), 제 3 레벨 도메인 또는 서브 도메인(Third Level/Sub Domain)으로 구성되어있다. 이 노드들은 크기가 최대 63바이트인 레이블을 가지며 같은 레벨 안에서 유일한 이름을 갖는다.
 
-<br><br>
-
-<img src="https://t1.daumcdn.net/cfile/tistory/25477D4E5916B32812" alt="DNS 트리 구조" height="350px" />  
-<br><br>
+<br>
+<img src="https://t1.daumcdn.net/cfile/tistory/25477D4E5916B32812" alt="DNS 트리 구조" height="400px" />  
+<br>
 
 DNS는 계층적 데이터베이스이다.  
 즉, 도메인 네임들은 하나의 서버에 저장되어지는게 아니라 각각의 독자적인 서버로 분산되어 계층적 구조로 저장된다. 최상위부터 순차적으로 계층적 소속 관계를 나타내며 각 레벨의 도메인 관리자는 해당 도메인의 하위 영역을 관리할 수 있는 권한을 지니며 하위 영역의 레이블에 포함된 정보를 알고있어야한다.
@@ -82,7 +81,6 @@ DNS는 계층적 데이터베이스이다.
 <br>
 <img src= https://t1.daumcdn.net/cfile/tistory/2464753E5916B3F22A alt="DNS 트리 구조" height="350px" />  
 <br>
-<br>
 
 ### 리소스 레코드(Resource record)
 
@@ -91,9 +89,13 @@ DNS는 계층적 데이터베이스이다.
 DNS 기본 동작
 -------------
 
-사용자가 요청한 도메인의 IP 주소는 Local DNS 서버가 다른 DNS 서버와 통신하여 사용자에게 제공한다. 즉, Local DNS 서버는 사용자의 요청을 대신하여 해당 도메인의 IP 주소 정보를 획득할 때까지 필요에 따라 여러 DNS 서버와의 통신을 수행하고(Recursion, 재귀적 통신), 해당 정보를 획득한 후 사용자에게 그 결과 값을 전달한다. (Local DNS 서버에 캐쉬되어 있는 경우에는 다른 DNS 서버와의 연동 없이 바로 사용자에게 결과 값을 전달한다.) 다음은 실제 웹 브라우저에서 URL을 입력하여 요청 했을 경우 동작되는 Flow다
+사용자가 요청한 도메인의 IP 주소는 Local DNS 서버가 다른 DNS 서버와 통신하여 사용자에게 제공한다.
+즉, Local DNS 서버는 사용자의 요청을 대신하여 해당 도메인의 IP 주소 정보를 획득할 때까지 필요에 따라 여러 DNS 서버와의 통신을 수행하고(Recursion, 재귀적 통신), 해당 정보를 획득한 후 사용자에게 그 결과 값을 전달한다. (Local DNS 서버에 캐쉬되어 있는 경우에는 다른 DNS 서버와의 연동 없이 바로 사용자에게 결과 값을 전달한다.) 
+
 
 ------------------
+
+<br>
 
 -	이미지 출처 [데이터 통신과 컴퓨터 네트워크](https://terms.naver.com/imageDetail.nhn?docId=2271996&imageUrl=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F3578_000_1%2F20141023224649357_CGWCGY0RK.jpg%2Fka8_209_i1.jpg%3Ftype%3Dm4500_4500_fst_n%26wm%3DY)
 -	참고 [인터넷 이용의 기반 DNS의 이해와 DNS 보안](https://www.kisa.or.kr/uploadfile/201310/201310071959231513.pdf)
