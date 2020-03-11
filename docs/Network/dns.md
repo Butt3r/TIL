@@ -47,11 +47,13 @@ ex) blog.example.com(.)
 루트의 하위는 여러 레벨로 나뉘는데 최상위 레벨 도메인(Top Level Domain) , 제 2 레벨 도메인(Second Level Domain), 제 3 레벨 도메인 또는 서브 도메인(Third Level/Sub Domain)으로 구성되어있다. 이 노드들은 크기가 최대 63바이트인 레이블을 가지며
 같은 레벨 안에서 유일한 이름을 갖는다. (중복X!)   
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Domain_name_space.svg/1280px-Domain_name_space.svg.png" alt="DNS 트리 구조" height="500px" />   
+<img src="https://t1.daumcdn.net/cfile/tistory/25477D4E5916B32812" alt="DNS 트리 구조" height="500px" />   
 
 
 <img src=https://www.cloudflare.com/img/learning/dns/glossary/dns-zone/dns-zone.png alt="DNS 구조" height="400px" />
-> 이미지 출처: https://www.cloudflare.com/ko-kr/learning/dns/glossary/dns-zone/
+
+> 이미지 출처: https://www.cloudflare.com/ko-kr/learning/dns/glossary/dns-zone/   
+<br>
 
 
 
