@@ -50,7 +50,9 @@ ex) blog.example.com(.)
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Domain_name_space.svg/1280px-Domain_name_space.svg.png" alt="DNS 트리 구조" height="500px" />   
 
 
-<img src= https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile21.uf.tistory.com%2Fimage%2F211B254F595C49300834B0 alt="DNS 구조" height="600px" />   
+<img src=https://www.cloudflare.com/img/learning/dns/glossary/dns-zone/dns-zone.png alt="DNS 구조" height="400px" />
+> 이미지 출처: https://www.cloudflare.com/ko-kr/learning/dns/glossary/dns-zone/
+
 
 
 DNS는 계층적 데이터베이스이다.   
