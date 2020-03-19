@@ -71,8 +71,8 @@ module.exports = {
         collapsable: true,
         children: [
           ['/Alogrithms/Recursion-1', 'Recursion'],
-          ['/Alogrithms/Recursion-2', 'Recursion pt2'],
-          ['/Alogrithms/1924', '2007년'],
+          ['/Alogrithms/Recursion-2', 'Recursion2'],
+          ['/Alogrithms/Recursion-maze', 'Recursion 응용'],
         ],
       },
       {
