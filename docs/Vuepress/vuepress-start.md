@@ -1,7 +1,6 @@
 Vuepress 시작하기 <Badge text="song" />
 =================
 
-> date: 200209
 
 Vuepress란?
 ---
