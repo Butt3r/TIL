@@ -1,7 +1,6 @@
 Port forwarding이란? <Badge text="song" />
 ==========================================
 
-> date: 200215  
 > 생활코딩 [Home server](https://opentutorials.org/course/3265/20038) 수업을 듣고 정리한 자료입니다.
 
 Port
