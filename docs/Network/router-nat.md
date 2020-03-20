@@ -1,7 +1,7 @@
 NAT란 무엇인가 <Badge text="song" />
 ====================================
 
-> [Home server](https://opentutorials.org/course/3265/20035) 수업을 듣고 정리한 자료입니다.
+> 생활코딩 [Home server](https://opentutorials.org/course/3265/20035) 수업을 듣고 정리한 자료입니다.
 
 NAT
 ---
