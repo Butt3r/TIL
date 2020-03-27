@@ -30,7 +30,7 @@ module.exports = {
         title: 'Spring',
         collapsable: true,
         children: [
-          ['Spring/s', 'test_spring'],
+          ['Spring/about-spring', 'Spring 메모'],
         ],
       },
       {
