@@ -74,6 +74,8 @@ module.exports = {
           ['/Alogrithms/Recursion-1', 'Recursion'],
           ['/Alogrithms/Recursion-2', 'Recursion2'],
           ['/Alogrithms/Recursion-maze', 'Recursion 응용'],
+          ['/Alogrithms/sort-basic', 'Sort'],
+
         ],
       },
       {
