@@ -15,7 +15,13 @@ DI(Dependency Injection)
 AOP(Aspect Oriented Programming)  
 DAO(Data Access Object)  
 POJO(Plain Old Java Object) MVC Annotation  
+IOC(Inversion of Control)
+PSA(Portable Service Abstraction)   
+...   
+
 MyBatis
+bin
+JPA
 
 #### 관련 서적
 
@@ -47,11 +53,17 @@ Build tool
 DIR Structure
 -------------
 
+스프링 MVC 패턴
 스프링의 디렉토리 구조  
-...
+
+참고 [스프링 MVC](https://coding-restaurant.tistory.com/106)
+참고 [디렉토리구조](https://shlee0882.tistory.com/127)
+
 
 동적 언어
 ---------
 
 스프링의 동적 언어(dynamic programming language) 지원  
 그 중 하나 Groovy 소개
+
+참고 [Groovy란?](https://galid1.tistory.com/647)
