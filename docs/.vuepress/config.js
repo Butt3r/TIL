@@ -24,7 +24,7 @@ module.exports = {
         collapsable: true,
         children: [
           ['JAVA/java-basic', 'About Java'],
-          ['JAVA/java-file-structure', '자바 기본 구조'],
+          ['JAVA/java-file-structure', 'Java File Structure'],
         ],
       },
       {
