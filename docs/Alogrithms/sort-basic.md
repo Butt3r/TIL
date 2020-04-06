@@ -22,7 +22,7 @@
 
 ### 기본적인 정렬 알고리즘
 
-## 1. Selection Sort 
+## 1. Selection Sort (선택 정렬)
 
 수도코드
 
@@ -107,7 +107,7 @@ public class Selection {
 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)   
    
 
-## 2. bubble Sort
+## 2. bubble Sort (거품 정렬)
 
 수도코드
 
@@ -148,7 +148,7 @@ selection sort와 같이 최악, 최고, 평균과 상관없이 시간복잡도�
 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)      
    
 
-## 3. insertion Sort
+## 3. insertion Sort (삽입 정렬)
 
 수도코드
 
