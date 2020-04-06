@@ -11,17 +11,17 @@ Spring Framworks
 
 ### 핵심 개념
 
-DI(Dependency Injection)  
-AOP(Aspect Oriented Programming)  
-DAO(Data Access Object)  
-POJO(Plain Old Java Object) MVC Annotation  
-IOC(Inversion of Control)
-PSA(Portable Service Abstraction)   
-...   
-
-MyBatis
-bin
-JPA
+DI(Dependency Injection)    
+AOP(Aspect Oriented Programming)     
+DAO(Data Access Object)     
+POJO(Plain Old Java Object) MVC Annotation     
+IOC(Inversion of Control)   
+PSA(Portable Service Abstraction)      
+...      
+   
+MyBatis   
+bin   
+JPA   
 
 #### 관련 서적
 
