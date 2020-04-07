@@ -18,8 +18,8 @@
 
 ### 기본적인 정렬 알고리즘
 
-1. Selection Sort (선택 정렬)
------------------------------
+## 1. Selection Sort (선택 정렬)
+
 
 수도코드
 
@@ -109,8 +109,8 @@ public class Selection {
 <br>
 <br> 
 
-2. bubble Sort (거품 정렬)
---------------------------
+## 2. bubble Sort (거품 정렬)
+
 
 수도코드
 
@@ -156,8 +156,8 @@ selection sort와 같이 최악, 최고, 평균과 상관없이 시간복잡도�
 <br>   
 
 
-3. insertion Sort (삽입 정렬)
------------------------------
+## 3. insertion Sort (삽입 정렬)
+
 
 수도코드
 
@@ -203,7 +203,6 @@ public static void insertionSort(int[] arr, int n) {
 <br>  
 <img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2017/02/ezgif.com-video-to-gif-13-1.gif" alt="삽입정렬" height="200px" />  
 <br>
-<br> 
 
 ---
 
