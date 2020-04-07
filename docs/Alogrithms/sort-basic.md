@@ -104,9 +104,11 @@ public class Selection {
 시간복잡도는 큰 수를 찾기위한 비교횟수의 전체합과 같다.  
 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)
 
+<br> 
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-12.gif" alt="선택정렬" height="90px" />  
+<div style="text-align:center"><img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-12.gif" alt="선택정렬" height="90px" />  
 <br>
+<br> 
 
 2. bubble Sort (거품 정렬)
 --------------------------
@@ -149,9 +151,12 @@ public static void bubbleSort(int[] arr, int n) {
 selection sort와 같이 최악, 최고, 평균과 상관없이 시간복잡도는 같다.  
 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)
 
+<br> 
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2012/07/bubble_gif.gif" alt="버블정렬" height="150px" />  
+<div style="text-align:center"><img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2012/07/bubble_gif.gif" alt="버블정렬" height="150px" />  
 <br>
+<br>   
+
 
 3. insertion Sort (삽입 정렬)
 -----------------------------
@@ -197,10 +202,12 @@ public static void insertionSort(int[] arr, int n) {
 평균적으로는 셀렉션이나 버블보다 절반정도의 시간복잡도를 가짐  
 최선의 경우 O(n)
 
+<br> 
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2017/02/ezgif.com-video-to-gif-13-1.gif" alt="선택정렬" height="200px" />  
+<div style="text-align:center"><img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2017/02/ezgif.com-video-to-gif-13-1.gif" alt="삽입정렬" height="200px" />  
 <br>
+<br> 
 
 ---
 
-[이미지 참고](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)
+[이미지 출처](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)
