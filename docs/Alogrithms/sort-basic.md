@@ -105,7 +105,7 @@ public class Selection {
 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)
 
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-12.gif" alt="선택정렬" height="90px" />  
+&nbsp;<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-12.gif" alt="선택정렬" height="90px" />  
 <br>
 
 2. bubble Sort (거품 정렬)
