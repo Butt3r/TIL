@@ -107,10 +107,8 @@ public class Selection {
 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)   
 
    
-[이미지참고]   
-
 <br>   
-<img src="C:\Users\oos\TIL\docs\.vuepress\public\img\selectionsort.gif" alt="선택정렬" height="200px" />     
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-12.gif" alt="선택정렬" height="200px" />     
 <br>   
 
 
@@ -152,8 +150,14 @@ public static void bubbleSort(int[] arr, int n) {
 :::   
 
 selection sort와 같이 최악, 최고, 평균과 상관없이 시간복잡도는 같다.            
-(n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)      
+(n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)        
    
+
+<br>   
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2012/07/bubble_gif.gif" alt="버블정렬" height="200px" />     
+<br>   
+
+
 
 ## 3. insertion Sort (삽입 정렬)
 
@@ -196,3 +200,12 @@ public static void insertionSort(int[] arr, int n) {
 최악의 경우 i-1번까지 비교하게되어 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)   
 평균적으로는 셀렉션이나 버블보다 절반정도의 시간복잡도를 가짐   
 최선의 경우 O(n)   
+
+  
+<br>      
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2017/02/ezgif.com-video-to-gif-13-1.gif" alt="선택정렬" height="200px" />     
+<br>      
+
+---
+
+[이미지 참고](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)
