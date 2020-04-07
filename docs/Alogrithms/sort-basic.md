@@ -105,7 +105,14 @@ public class Selection {
 
 시간복잡도는 큰 수를 찾기위한 비교횟수의 전체합과 같다.   
 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)   
+
    
+[이미지참고]   
+
+<br>   
+<img src="C:\Users\oos\TIL\docs\.vuepress\public\img\selectionsort.gif" alt="선택정렬" height="200px" />     
+<br>   
+
 
 ## 2. bubble Sort (거품 정렬)
 
