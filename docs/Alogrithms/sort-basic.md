@@ -1,28 +1,25 @@
- 정렬(sort) <Badge text="song" />
-===================
-> n개의 숫자를 사용자가 지정한 기준으로 순서대로 정렬하는 알고리즘
+정렬(sort) <Badge text="song" />
+================================
 
+> n개의 숫자를 사용자가 지정한 기준으로 순서대로 정렬하는 알고리즘
 
 ### 정렬 알고리즘 요약
 
-간단하지만 느림   
-- bubble   
-- insertion   
-- selection   
+간단하지만 느림  
+- bubble  
+- insertion  
+- selection
 
-복잡하지만 빠름   
-- quick   
-- merge 
-- heap    
+복잡하지만 빠름  
+- quick  
+- merge - heap
 
-비교하지않고 정렬을 함
-- radix (o(n))
-<br>   
-
+비교하지않고 정렬을 함 - radix (o(n))<br>
 
 ### 기본적인 정렬 알고리즘
 
-## 1. Selection Sort (선택 정렬)
+1. Selection Sort (선택 정렬)
+-----------------------------
 
 수도코드
 
@@ -36,14 +33,14 @@ swap arr[k] <--> arr[last]; //arr[k]와 arr[last]의 값을 교환
 }
 }
 ```
-<br>   
 
-자바로 구현한 코드
-(최대값)
+<br>
+
+자바로 구현한 코드 (최대값)
 
 ```java
 public class Selection {
-    
+
 
     public static void swap(int arr[], int a, int b)
     {
@@ -57,8 +54,8 @@ public class Selection {
 
       // n 대신에 arr.length를 써도 가능하다. 수도 코드와 비슷하게 할려고 매개변수를 사용
 
-        for (int i = n-1; i > 0; i--) { // n-1을 하는 이유는 마지막 숫자는 자동으로 정렬되기 때문에 
-            int MaxIndex = 0; 
+        for (int i = n-1; i > 0; i--) { // n-1을 하는 이유는 마지막 숫자는 자동으로 정렬되기 때문에
+            int MaxIndex = 0;
             for(int j = 1; j <= i; j++) {
                 if (arr[j] > arr[MaxIndex]) // 더 큰 값을 발견하면
                     MaxIndex = j; // 저장
@@ -77,11 +74,12 @@ public class Selection {
     }
 
 }
-```   
+```
 
 (최소값)
+
 ```java
-    
+
     public static void selectionSort(int[] arr) {
 
         int len = arr.length; // 배열의 길이
@@ -99,20 +97,19 @@ public class Selection {
 
 ```
 
-::: details 결과      
-[1, 2, 5, 10, 13, 19, 21, 27, 30, 36]   
-:::   
+::: details 결과  
+[1, 2, 5, 10, 13, 19, 21, 27, 30, 36]  
+:::
 
-시간복잡도는 큰 수를 찾기위한 비교횟수의 전체합과 같다.   
-(n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)   
+시간복잡도는 큰 수를 찾기위한 비교횟수의 전체합과 같다.  
+(n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)
 
-   
-<br>   
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-12.gif" alt="선택정렬" height="200px" />     
-<br>   
+<br>  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-12.gif" alt="선택정렬" height="100px" />  
+<br>
 
-
-## 2. bubble Sort (거품 정렬)
+2. bubble Sort (거품 정렬)
+--------------------------
 
 수도코드
 
@@ -127,7 +124,7 @@ if(arr[i]>arr[i+1]) then swap arr[i] <-> arr[i+1]; // arr[i] 바로 옆에 있�
 }
 ```
 
-<br>   
+<br>
 
 자바로 구현한 코드
 
@@ -145,21 +142,19 @@ public static void bubbleSort(int[] arr, int n) {
 }
 ```
 
-::: details 결과      
-[1, 2, 5, 10, 13, 19, 21, 27, 30, 36]   
-:::   
+::: details 결과  
+[1, 2, 5, 10, 13, 19, 21, 27, 30, 36]  
+:::
 
-selection sort와 같이 최악, 최고, 평균과 상관없이 시간복잡도는 같다.            
-(n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)        
-   
+selection sort와 같이 최악, 최고, 평균과 상관없이 시간복잡도는 같다.  
+(n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)
 
-<br>   
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2012/07/bubble_gif.gif" alt="버블정렬" height="200px" />     
-<br>   
+<br>  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2012/07/bubble_gif.gif" alt="버블정렬" height="150px" />  
+<br>
 
-
-
-## 3. insertion Sort (삽입 정렬)
+3. insertion Sort (삽입 정렬)
+-----------------------------
 
 수도코드
 
@@ -172,7 +167,8 @@ insertion(arr[], n)
 }
 }
 ```
-<br>   
+
+<br>
 
 자바로 구현한 코드
 
@@ -193,18 +189,17 @@ public static void insertionSort(int[] arr, int n) {
     }
 ```
 
-::: details 결과         
-[1, 2, 5, 10, 13, 19, 21, 27, 30, 36]      
-:::   
+::: details 결과  
+[1, 2, 5, 10, 13, 19, 21, 27, 30, 36]  
+:::
 
-최악의 경우 i-1번까지 비교하게되어 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)   
-평균적으로는 셀렉션이나 버블보다 절반정도의 시간복잡도를 가짐   
-최선의 경우 O(n)   
+최악의 경우 i-1번까지 비교하게되어 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)  
+평균적으로는 셀렉션이나 버블보다 절반정도의 시간복잡도를 가짐  
+최선의 경우 O(n)
 
-  
-<br>      
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2017/02/ezgif.com-video-to-gif-13-1.gif" alt="선택정렬" height="200px" />     
-<br>      
+<br>  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2017/02/ezgif.com-video-to-gif-13-1.gif" alt="선택정렬" height="200px" />  
+<br>
 
 ---
 
