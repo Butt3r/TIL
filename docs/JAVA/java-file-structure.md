@@ -1,8 +1,6 @@
 자바의 기본 구조 <Badge text="song" />
 ================
 
-[[toc]]
-
 본격적으로 자바 문법을 공부하기에 앞서  
 자바 프로그램의 기본 구조는 어떻게 이루어지는지 살펴보겠다.
 
@@ -62,16 +60,14 @@ class D
 // 파일명은 Test.java 이다.
 ```
 
-컴파일 결과는 어떨까?
-아마 대부분이 예상했듯이 컴파일 에러가 뜰것이다.
+컴파일 결과는 어떨까? 아마 대부분이 예상했듯이 컴파일 에러가 뜰것이다.
 
-::: error   
-error: class B is public should be declared in a file named B.java   
-:::   
+::: danger    
+error: class B is public should be declared in a file named B.java      
+:::      
 
-에러 메세지에서는      
-파일명은 Test인데 public 클래스 이름은 B라 맞지않다! 소스 파일명을 B.java 로 해야한다! 라고 말하고있다.   
-그 이유는 **public 클래스는 프로그램 파일명과 동일해야한다는 규칙**에 위반되었기 때문이다.
+에러 메세지에서는 파일명은 Test인데 public 클래스 이름은 B라 맞지않다! 소스 파일명을 B.java 로 해야한다! 라고 말하고있다.      
+그 이유는 위 코드가 **public 클래스는 프로그램 파일명과 동일해야한다는 규칙**에 위반됐기 때문이다.
 
 ```java
 class A 
@@ -98,9 +94,9 @@ class D
 에러났던 부분을 수정해 파일명을 public 클래스와 동일하게 바꾸었다. 문제가 없을까?   
 이것 역시 아래와 같은 컴파일 에러가 뜬다.
 
-::: error   
-error: class C is public should be declared in a file named C.java
-:::  
+::: danger   
+error: class C is public should be declared in a file named C.java   
+:::     
 
 
 그 이유는 public 접근 지정자는 오로지 **파일명과 동일한 클래스** 앞에만 붙이는게 가능하며
@@ -132,10 +128,9 @@ class Test
 위 코드 그대로 컴파일을 하면 어떻게될까?
 아마 대략 이런 에러가 뜰 것이다.   
 
-::: error   
-error: cannot find symbol   
-symbol: class ArrayList   
-:::  
+::: danger    
+error: cannot find symbol symbol: class ArrayList      
+:::     
 
 cannot find symbol은 해당 클래스를 찾지 못했다는 뜻으로 ArrayList 클래스가 프로그램에 포함되어있지 않아 생긴 에러이다.
 해결 방법은 컴파일러에게 ArrayList 클래스가 존재하는 경로를 명시해주면 된다.
@@ -182,7 +177,7 @@ class Test
 ```java
 import java.util.*; // import 패키지명.*;
 ```
-이러한 import문은 implicit import라 불리며 java.util에 속한 모든 클래스를 참조한다.
+이러한 import문은 implicit import라 불리며 java.util에 속한 모든 클래스를 참조한다.   
 사용해야하는 클래스의 수가 많을시엔 유용하지만 반대로 수가 적다면 추천하지않는 방법이다.
 
 자세한건 참고 [import](https://help.semmle.com/wiki/display/JAVA/Implicit+import)
@@ -192,7 +187,7 @@ import java.util.*; // import 패키지명.*;
 ```java
 import java.*; // 잘못된 선언
 ```
-**.**를 사용하는 것이 하위 패키지의 클래스까지 포함한다는 뜻은 아니다.
+구분지정자 dot(.)을 사용하는 것이 하위 패키지의 클래스까지 포함한다는 뜻은 아니다.
 
 
 ### Explicit import (명시적 임포트)
@@ -200,7 +195,7 @@ import java.*; // 잘못된 선언
 ```java
 import java.util.ArrayList; // import 패키지명.클래스명*;
 ```
-위 import문은 Explicit import라 불리며 implicit import랑은 다르게 필요한 해당 클래스만을 참조한다.
+위 import문은 Explicit import라 불리며 implicit import랑은 다르게 필요한 해당 클래스만을 참조한다.   
 사용해야하는 클래스의 수가 적을 때 추천한다.
 
 
@@ -223,14 +218,14 @@ class Test
 
 1. 외부 클래스를 써야한다면 **import문**을 사용한다.
 2. implicit import문은 **import 패키지명.*;** 을 따라 명시한다.
-3. Explicit import문은 **import 패키지명.클래스명*;** 을 따라 명시한다.
+3. Explicit import문은 **import 패키지명.클래스명;** 을 따라 명시한다.
 4. import문은 몇개든 사용 가능하다.
 5. import문의 위치는 패키지 아래 클래스 위 이다.
 
 
 ## 3. java.lang 
 
-java.lang 패키지는 별다른 import문 없이도 자동으로 import되는 기본패키지이다.
+java.lang 패키지는 별다른 import문 없이도 자동으로 import되는 기본패키지이다.   
 기본 패키지에 포함된 클래스는 따로 명시하지 않아도 최상위 클래스가 된다.
 
 ### java.lang 에 포함된 클래스들
