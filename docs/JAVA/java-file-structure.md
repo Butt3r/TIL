@@ -66,7 +66,7 @@ class D
 error: class B is public should be declared in a file named B.java      
 :::      
 
-에러 메세지에서는 파일명은 Test인데 public 클래스 이름은 B라 맞지않다! 소스 파일명을 B.java 로 해야한다! 라고 말하고있다.      
+에러 메세지는 파일명과 클래스 이름이 다르니 소스 파일명을 B.java 로 바꾸라 말하고있다.       
 그 이유는 위 코드가 **public 클래스는 프로그램 파일명과 동일해야한다는 규칙**에 위반됐기 때문이다.
 
 ```java
@@ -162,10 +162,10 @@ class Test
     }
 }
 ```
-이렇게 여러군데에서 클래스가 사용되는 경우 중복으로 불편함이 생긴다.
+이렇게 여러군데에서 클래스가 사용되는 경우 효율이 떨어지게된다.
 
 
-다행히 코드내에서 사용되는 패키지명을 생략할 수 있는 방법이 있다.
+다행히 코드 내에서 사용되는 패키지명을 생략할 수 있는 방법이 있다.   
 바로 import문으로 외부에 존재하는 클래스를 단 한번의 명시로 사용할 수 있게 한다.
 
 패키지가 아직 뭔지 모른다면
@@ -258,6 +258,6 @@ $ javac Test.java
 ```cmd
 $ java Test
 ```
-
+<br>
 ---
 참고 [Durga Software Solutions](https://www.youtube.com/watch?v=DaAJIMakWKU&list=PLd3UqWTnYXOkwluXExifmJWKkvGa1ywWp&index=1)
