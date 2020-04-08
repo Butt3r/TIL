@@ -111,7 +111,7 @@ error: class C is public should be declared in a file named C.java
 4. 프로그램 파일명과 동일한 클래스 앞에만 **public 접근 지정자를 붙일 수 있다.**
 
 
-## 2. Explicit import implicit import
+## 3. Explicit import & implicit import
 
 ArrayList를 사용한다 가정하겠다.
 
@@ -223,7 +223,7 @@ class Test
 5. import문의 위치는 패키지 아래 클래스 위 이다.
 
 
-## 3. java.lang 
+## 4. java.lang 
 
 java.lang 패키지는 별다른 import문 없이도 자동으로 import되는 기본패키지이다.   
 기본 패키지에 포함된 클래스는 따로 명시하지 않아도 최상위 클래스가 된다.
@@ -243,7 +243,7 @@ java.lang 패키지는 별다른 import문 없이도 자동으로 import되는 �
 자세한건 참고 [java.lang](https://docs.oracle.com/javase/7/docs/api/java/lang/package-summary.html)
 
 
-## 4. Compile & Run
+## 5. Compile & Run
 
 ### cmd로 컴파일하는 방법
 
