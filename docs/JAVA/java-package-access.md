@@ -71,7 +71,7 @@ import java.util.date; //import 패키지명.패키지명.클래스명
 
 ## 접근제어자(access modifier)란?
 
-접근제어자란 말 그대로 클래스의 멤버인 변수나 메소드의 접근 가능 여부를 나타내는 것이다.
+접근제어자란 말 그대로 클래스의 멤버인 변수나 메소드의 접근 가능 여부를 나타내는 것이다.   
 자바는 접근제어자를 객체지향프로그램에서의 캡슐화를 지원하기 위해 제공하였고 그 결과 은닉이 필요한
 데이터를 효과적으로 보호하고 보안의 취약점을 미리 예방할 수 있게됐다.
 
@@ -80,8 +80,8 @@ import java.util.date; //import 패키지명.패키지명.클래스명
 
 ## public
 
-일반적으로 영어에서 public은 공공이란 뜻을 지니고 있다.
-자바에서의 의미 또한 크게 다르지않은데, public 접근제어자가 붙었다는 것은   
+일반적으로 영어에서 public은 공공이란 뜻을 지니고 있다.   
+자바에서의 의미 또한 크게 다르지않은데, public 접근제어자가 붙었다는 것은     
 어떤 클래스에서라도 접근이 가능하다는 뜻이기 때문이다.
 
 아래 예제를 보자
@@ -114,9 +114,9 @@ public class callingMethod
 }
 ```
 
-::: details 결과     
-public method is called   
-:::   
+::: details 결과        
+public method is called      
+:::      
 
 결과를 통해 다른 클래스에서의 public클래스 접근이 가능함을 알 수 있다.
 
@@ -158,9 +158,9 @@ public class callingMethod
 
 ```
 
-::: danger      
-Error:(11, 11) java: pMethod() has private access in pak2.PrivateModifier
-:::   
+::: danger         
+Error:(11, 11) java: pMethod() has private access in pak2.PrivateModifier   
+:::      
 
 public과 다르게 에러가 뜬 것을 확인할 수 있다.
 private은 오로지! 동일 클래스에서만 접근이 가능하다.
@@ -224,11 +224,11 @@ Error:(11, 11) java: dMethod() is not public in pak2.DefaultModifier; cannot be 
 
 private < default < protected < public
 
-| 접근제어자     | 동일 클래스    | 동일 패키지    | 상속받은 클래스  | import한 클래스  |
+| 접근제어자     | 동일 클래스    | 동일 패키지    | 상속받은 클래스  | 그 외(import)   |
 | ------------- |:-------------:|:-------------:|:---------------:| ---------------:|
 | public        |       ○       |       ○       |       ○         |       ○         |
 | protected     |       ○       |       ○       |       ○         |       X         |
-| default       |       ○       |       ○       |       X         |       X         | 
-| private       |       ○       |       X       |       X         |       X         | 
+| default       |       ○       |       ○       |       X         |       X         |
+| private       |       ○       |       X       |       X         |       X         |
 
 
