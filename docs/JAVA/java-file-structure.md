@@ -168,8 +168,9 @@ class Test
 다행히 코드 내에서 사용되는 패키지명을 생략할 수 있는 방법이 있다.   
 바로 import문으로 외부에 존재하는 클래스를 단 한번의 명시로 사용할 수 있게 한다.
 
-패키지가 아직 뭔지 모른다면
-참고 [java-package](http://www.incodom.kr/Java/Package)
+> 패키지 개념에대해 모른다면 아래 링크를 참고한다.   
+참고 [java-package](http://www.incodom.kr/Java/Package)   
+<br>   
 
 ### implicit import (암시적 임포트)
 
