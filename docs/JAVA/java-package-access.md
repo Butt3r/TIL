@@ -78,7 +78,7 @@ import java.util.date; //import 패키지명.패키지명.클래스명
 자바엔 총 4가지의 접근 제어자가 존재한다.
 하나씩 살펴보도록하자
 
-## public
+## 1. public
 
 일반적으로 영어에서 public은 공공이란 뜻을 지니고 있다.   
 자바에서의 의미 또한 크게 다르지않은데, public 접근제어자가 붙었다는 것은     
@@ -121,7 +121,7 @@ public method is called
 결과를 통해 다른 클래스에서의 public클래스 접근이 가능함을 알 수 있다.
 
 
-## private
+## 2. private
 
 private은 이름으로 유추 가능하듯 public보다 좀 더 비밀스럽다.
 그래서 private은 모든 클래스가 아닌 private과 같은 동일한 클래스 내에서만 접근이 가능하다.
@@ -165,7 +165,7 @@ Error:(11, 11) java: pMethod() has private access in pak2.PrivateModifier
 public과 다르게 에러가 뜬 것을 확인할 수 있다.
 private은 오로지! 동일 클래스에서만 접근이 가능하다.
 
-## protected
+## 3. protected
 
 protected는 일반적인 경우에서는 포지션이 살짝 애매하다 느낄 수 있지만 추상클래스와 상속에서는 진가를 발휘한다.
 protected는 자식클래스(child class)가 변경될 것을 고려하여 만들어진 modifier이다.
@@ -174,7 +174,7 @@ protected는 자식클래스(child class)가 변경될 것을 고려하여 만�
 자세한 사용법은 상속을 다룰 때 포스팅 하겠다.
 
 
-## default
+## 4. default
 
 default는 별다른 키워드 없이 자동으로 설정되는 접근제어자다.
 default는 동일 클래스와 같은 패키지안에서 접근이 가능하다.
@@ -222,10 +222,12 @@ Error:(11, 11) java: dMethod() is not public in pak2.DefaultModifier; cannot be 
 
 접근권한   
 
+```
 private < default < protected < public
+```
 
 | 접근제어자     | 동일 클래스    | 동일 패키지    | 상속받은 클래스  | 그 외(import)   |
-| ------------- |:-------------:|:-------------:|:---------------:| ---------------:|
+| ------------- |:-------------:|:-------------:|:---------------:|:---------------:|
 | public        |       ○       |       ○       |       ○         |       ○         |
 | protected     |       ○       |       ○       |       ○         |       X         |
 | default       |       ○       |       ○       |       X         |       X         |
