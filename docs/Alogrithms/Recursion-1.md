@@ -100,13 +100,13 @@ public static int func(int n) { // 0부터 n까지의 합을 구하는 함수
 ```Java
 public class Factorial {
   public static void main(String [] args) {
-    int sum = clac(5);
+    int sum = calc(5);
     System.out.println("factorial result: " + sum);
   }
-public static int clac(int n) { // n의 팩토리얼 값을 구하는 함수
+public static int calc(int n) { // n의 팩토리얼 값을 구하는 함수
   if (n==0) return 1; // n이 0이면 1로 리턴 (0팩토리얼은 1이기 때문)
   else
-  return n*clac(n-1); // n이 0보다 크면 n!을 계산
+  return n*calc(n-1); // n이 0보다 크면 n!을 계산
 }
 }
 ```
@@ -121,13 +121,13 @@ public static int clac(int n) { // n의 팩토리얼 값을 구하는 함수
 ```Java
 public class Fibonacci {
   public static void main(String [] args) {
-    int sum = clac(10);
+    int sum = calc(10);
     System.out.println("fibonacci result: " + sum);
   }
-  public static int clac(int n){
+  public static int calc(int n){
   if (n<2) return n; // f0 = 0이고 f1 = 1 이기 때문에 n이 2보다 작은 수 1혹은 0이면 그에 맞게 반환하게
   else
-  return clac(n-1) + clac(n-2); //n이 2보다 크면 fn = fn -1 + fn -2를 계산한다.
+  return calc(n-1) + calc(n-2); //n이 2보다 크면 fn = fn -1 + fn -2를 계산한다.
 }
 }
 ```
