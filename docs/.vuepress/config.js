@@ -25,7 +25,7 @@ module.exports = {
         children: [
           ['JAVA/java-basic', 'About Java'],
           ['JAVA/java-file-structure', 'Java File Structure'],
-          ['JAVA/java-package-access', 'Package and Access modifier']
+          ['JAVA/java-package-access', 'Package and Access modifier'],
           ['JAVA/java-annotation', 'Annotation']
          
           
