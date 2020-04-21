@@ -69,7 +69,6 @@ public String toString() // 메소드 위에 붙여 사용하고 있다.
 
 
 ## 커스텀(custom) 어노테이션
-> 커스텀 어노테이션은 자바 중급 강의를 참고했습니다.
 
 내장된 어노테이션 이외에도 사용자가 직접 원하는 형태의 어노테이션을 만들 수 있다.
 커스텀 어노테이션을 사용하는 방법은 아래와 같다.
@@ -91,7 +90,8 @@ public @interface TestAnnotation // @interface 어노테이션명
 }
 ```
 
-그 다음 두번째로, PrintAnnotaion이 JVM(Java Virtual Machine) 실행 시에 감지할 수 있게   
+그 다음 두번째로,   
+PrintAnnotaion이 JVM(Java Virtual Machine) 실행 시에 감지할 수 있게   
 @Retention(RetentionPolicy.RUNTIME)을 붙여준다.
 
 
@@ -106,7 +106,7 @@ public @interface TestAnnotation
 }
 ```
 
-아주 기본적인 형태의 어노테이션이 생성됐다.
+아주 기본적인 형태의 어노테이션이 생성됐다.   
 이렇게 만들어진 어노테이션은 아래와 같이 default값을 할당할 수 있다.
 
 ```java
@@ -124,7 +124,7 @@ public @interface TestAnnotation
 
 ### 어노테이션 사용
 
-정의한 어노테이션은 메소드 위에 붙여 사용한다.
+정의한 어노테이션은 메소드 위에 붙여 사용한다.   
 "do something"을 출력하는 doing() 메소드를 만들어 그 위에 @PrintAnnotation을 붙인다.
 
 ```java
@@ -208,6 +208,6 @@ num: 10
 
 
 ---
-참고[자바 중금 - 어노테이션](https://programmers.co.kr/learn/courses/9/lessons/269)
-참고[Annotaiaon value - stackoverflow](https://stackoverflow.com/questions/10682935/get-annotation-value)
-참고[Annotation과 Reflection이란?](https://qssdev.tistory.com/27)
+참고[자바 중금 - 어노테이션](https://programmers.co.kr/learn/courses/9/lessons/269)   
+참고[Annotaiaon value - stackoverflow](https://stackoverflow.com/questions/10682935/get-annotation-value)   
+참고[Annotation과 Reflection이란?](https://qssdev.tistory.com/27)   
