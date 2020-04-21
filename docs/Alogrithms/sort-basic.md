@@ -206,4 +206,4 @@ public static void insertionSort(int[] arr, int n) {
 
 ---
 
-[이미지 출처](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)
+이미지 출처 [sorting-algorithms-fundamentals](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)
