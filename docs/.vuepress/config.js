@@ -87,7 +87,7 @@ module.exports = {
         title: 'Design Pattern',
         collapsable: true,
         children: [
-          ['/Design Pattern/DP', 'dp'],
+          ['/Design Pattern/strategy', 'Strategy Pattern'],
         ],
       },
       {
