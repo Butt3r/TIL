@@ -29,13 +29,14 @@
 - 객체 수가 증가함   
 - 결합도를 높임   
 
+<br>   
 
 
 ## UML Diagram
 
 <br>
-<img src="https://i2.wp.com/www.e4developer.com/wp-content/uploads/2018/10/strategy-pattern.png?w=669&ssl=1" alt="Strategy pattern" height="400px" />  
-<br>
+![내부 이미지](/img/strategypattern.png)
+![내부 이미지2](/img/stUML.png)
 <br>
 
 
