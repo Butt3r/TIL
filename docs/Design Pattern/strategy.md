@@ -5,7 +5,7 @@
 ## 전략(Strategy) 패턴 
 
 전략 패턴은 [행위 패턴(Behavioral)](https://refactoring.guru/design-patterns/behavioral-patterns)에 해당되는 디자인 패턴(Design Pattern)중 하나로    
-유사한 비즈니스 로직들을 각각 캡슐화하여 필요할 때 마다 서로 교환해서 사용할 수 있게끔 하는 패턴이다.
+유사한 비즈니스 로직들을 각각 캡슐화하여 필요할 때마다 서로 교환해서 사용할 수 있게끔 하는 패턴이다.
 
 요약하면   
 
@@ -34,10 +34,17 @@
 
 ## UML Diagram
 
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FcamOYZ%2FbtqDRwOXmxN%2FXSYAlD6Tg93phZ4t4VHBo1%2Fimg.png" alt="전략패턴" height="400px" />  
 <br>
-![내부 이미지](/img/strategypattern.png)
-![내부 이미지2](/img/stUML.png)
 <br>
+
+starUML로 그린 전략 패턴의 클래스 다이어그램이다.   
+
+### 역할
+
+Context: 인스턴스를 주입받아 이용하는 역할   
+interface: Strategy 사용을 위해 생성된 인터페이스로 동일한 방식으로 알고리즘을 호출   
+Strategy: 인터페이스를 구현(implement)한 실제 알고리즘   
 
 
 ## Example
