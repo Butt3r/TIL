@@ -9,10 +9,7 @@
 
 요약하면   
 
-  - 동일한 계열의 알고리즘군을 **정의**하고   
-  - 각 알고리즘을 **캡슐화**하며   
-  - 군 내의 알고리즘들을 **상호교환**하게 만드는 것   
-
+동일한 계열의 알고리즘군을 **정의**하고 각 알고리즘을 **캡슐화**하며 군 내의 알고리즘들을 **상호교환**하게 만드는 것        
 이 바로 전략 패턴이다.   
 
 
@@ -34,11 +31,10 @@
 
 ## UML Diagram
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FcamOYZ%2FbtqDRwOXmxN%2FXSYAlD6Tg93phZ4t4VHBo1%2Fimg.png" alt="전략패턴" height="400px" />  
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FcamOYZ%2FbtqDRwOXmxN%2FXSYAlD6Tg93phZ4t4VHBo1%2Fimg.png" alt="전략패턴" height="500px" />  
 <br>
-<br>
-
 starUML로 그린 전략 패턴의 클래스 다이어그램이다.   
+<br>
 
 ### 역할
 
