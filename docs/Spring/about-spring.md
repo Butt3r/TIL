@@ -15,7 +15,8 @@ DI(Dependency Injection)
 AOP(Aspect Oriented Programming)     
 DAO(Data Access Object)     
 POJO(Plain Old Java Object) MVC Annotation     
-IOC(Inversion of Control)   
+IOC(Inversion of Control)  
+참고 [ioc](https://martinfowler.com/articles/injection.html)    
 PSA(Portable Service Abstraction)      
 ...      
    

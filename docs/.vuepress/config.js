@@ -20,6 +20,15 @@ module.exports = {
         ],
       },
       {
+        title: 'WEB',
+        collapsable: true,
+        children: [
+          ['WEB/web-basic', 'World Wide Web'],
+          ['WEB/html', 'HTML'],
+          ['WEB/css', 'CSS'],
+        ],
+      },
+      {
         title: 'JAVA',
         collapsable: true,
         children: [
@@ -27,8 +36,6 @@ module.exports = {
           ['JAVA/java-file-structure', 'Java File Structure'],
           ['JAVA/java-package-access', 'Package and Access modifier'],
           ['JAVA/java-annotation', 'Annotation']
-         
-          
         ],
       },
       {
@@ -39,12 +46,17 @@ module.exports = {
         ],
       },
       {
-        title: 'WEB',
+        title: 'Spring boot',
         collapsable: true,
         children: [
-          ['WEB/web-basic', 'World Wide Web'],
-          ['WEB/html', 'HTML'],
-          ['WEB/css', 'CSS'],
+          ['Spring boot/s', 'Spring boot 시작하기'],
+        ],
+      },
+      {
+        title: 'DataBase',
+        collapsable: true,
+        children: [
+          ['Database/SQ', 'test'],
         ],
       },
       {
@@ -56,13 +68,6 @@ module.exports = {
           ['Network/port-forwarding', 'Port forwarding'],
           ['Network/dhcp', 'DHCP'],
           ['Network/dns', 'DNS'],
-        ],
-      },
-      {
-        title: 'SQL',
-        collapsable: true,
-        children: [
-          ['SQL/SQ', 'sq'],
         ],
       },
       {
@@ -95,13 +100,6 @@ module.exports = {
         collapsable: true,
         children: [
           ['Docker/SH', 'sh'],
-        ],
-      },
-      {
-        title: 'C++',
-        collapsable: true,
-        children: [
-          ['C++/CP', 'cp'],
         ],
       },
       {
