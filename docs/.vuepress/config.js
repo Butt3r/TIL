@@ -71,6 +71,13 @@ module.exports = {
         ],
       },
       {
+        title: 'CS',
+        collapsable: true,
+        children: [
+          ['Computer Science/stored-programmed-computer', 'Stored programmed'],
+        ],
+      },
+      {
         title: 'Linux',
         collapsable: true,
         children: [
@@ -100,13 +107,6 @@ module.exports = {
         collapsable: true,
         children: [
           ['Docker/SH', 'sh'],
-        ],
-      },
-      {
-        title: 'Computer Science',
-        collapsable: true,
-        children: [
-          ['Computer Science/stored-programmed-computer', 'Stored programmed'],
         ],
       },
       {
