@@ -81,9 +81,9 @@ module.exports = {
         title: 'Alogrithms',
         collapsable: true,
         children: [
-          ['/Alogrithms/Recursion-1', 'Recursion'],
-          ['/Alogrithms/Recursion-2', 'Recursion2'],
-          ['/Alogrithms/Recursion-maze', 'Recursion 응용'],
+          ['/Alogrithms/recursion-1', 'Recursion'],
+          ['/Alogrithms/recursion-2', 'Recursion2'],
+          ['/Alogrithms/recursion-maze', 'Recursion 응용'],
           ['/Alogrithms/sort-basic', 'Sort'],
 
         ],
@@ -100,6 +100,13 @@ module.exports = {
         collapsable: true,
         children: [
           ['Docker/SH', 'sh'],
+        ],
+      },
+      {
+        title: 'Computer Science',
+        collapsable: true,
+        children: [
+          ['Computer Science/stored-programmed-computer', 'Stored programmed'],
         ],
       },
       {
