@@ -12,11 +12,9 @@ Spring Framworks
 ### 핵심 개념
 
 DI(Dependency Injection)    
-AOP(Aspect Oriented Programming)     
-DAO(Data Access Object)     
+AOP(Aspect Oriented Programming)         
 POJO(Plain Old Java Object) MVC Annotation     
-IOC(Inversion of Control)  
-참고 [ioc](https://martinfowler.com/articles/injection.html)    
+IOC(Inversion of Control) 참고 [ioc](https://martinfowler.com/articles/injection.html)      
 PSA(Portable Service Abstraction)      
 ...      
    
@@ -51,13 +49,15 @@ Build tool
 3.	Maven
 4.	Gradle vs Maven
 
+## Pattern
+
+참고 [스프링 MVC](https://coding-restaurant.tistory.com/106)
+
 DIR Structure
 -------------
 
-스프링 MVC 패턴
 스프링의 디렉토리 구조  
 
-참고 [스프링 MVC](https://coding-restaurant.tistory.com/106)
 참고 [디렉토리구조](https://shlee0882.tistory.com/127)
 
 
