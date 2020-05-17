@@ -5,7 +5,7 @@
 
 ## MVC Pattern
 
-MVC 패턴이란  # Model <Tag/>, # View <Tag/>,  # Controller <Tag/> 를 세가지의 역할로 구분하여 개발하는 디자인패턴이다.
+MVC 패턴이란  <Tag>Model<Tag/> View  # Controller <Tag/> 를 세가지의 역할로 구분하여 개발하는 디자인패턴이다.
 
 ### Model
 
