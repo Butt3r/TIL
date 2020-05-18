@@ -6,7 +6,7 @@ NAT란 무엇인가 <Badge text="song" />
 NAT
 ---
 
-NAT란 Network Address Translation의 줄임말이다. NAT는 네트워크 주소 변환이라고도 불리며 사설IP로 연결된 기기들이 외부 인터넷에 접속할 수 있게 도와준다.
+<code>NAT</code>란 Network Address Translation의 줄임말이다. NAT는 네트워크 주소 변환이라고도 불리며 사설IP로 연결된 기기들이 외부 인터넷에 접속할 수 있게 도와준다.
 
 동작 원리
 ---------

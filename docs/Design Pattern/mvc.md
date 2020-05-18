@@ -44,7 +44,7 @@ C에 해당하는 <code>Controller</code> 는 Model과 View 사이에서 매개�
 
 - 이벤트를 감지하고 "어떻게" 처리할 지를 수행
 - 애플리케이션의 메인 로직 담당
-- View에서 전달된 정보로 Model을 변경해줌
+- request를 받아 Model에게 지시
 - Model과 View를 독립적으로 관리 가능
 - **Servlet**   
  

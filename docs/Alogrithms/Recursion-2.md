@@ -1,4 +1,4 @@
-Recursion - 2 <Badge text="song" />
+Recursion Alogrithm <Badge text="song" /><Badge text="pt2" type="warning" />
 =============
 
 Recursive thinking

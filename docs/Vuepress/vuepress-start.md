@@ -188,15 +188,15 @@ yarn deploy # or npm run deploy
 
 
 정상적으로 배포가 완료됐다면 생성했던 리포지토리의 gh-pages 브랜치에서 dist 폴더에 빌드된 프로젝트 파일이 있는지 체크한다.
-그리고 리포지토리 -> Setting -> github page로 가서 브랜치를 gh-pages로 맞춰두고
+그리고 리포지토리 -> Setting -> github page로 가서 브랜치를 gh-pages로 맞춰주고
 
-:point_right: https:'USERNAME'.github.io/'REPO'
+<code>https:'USERNAME'.github.io/'REPO'</code>
 
 위 주소로 접속하여 최종 결과물을 확인한다.
 
-:::tip
-페이지가 로드되는데 시간이 좀 걸리니 기다린다.
-:::
+
+> 페이지가 로드되는데 시간이 좀 걸리니 기다린다.
+
 
 ### 자동 배포
 

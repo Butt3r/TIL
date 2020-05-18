@@ -6,9 +6,7 @@ Router란 무엇인가 <Badge text="song" />
 공유기(Router)
 --------------
 
-**공유기란?**
-
-하나의 공인IP(Public Domain)를 가지고 여러대의 PC가 인터넷에 접속할 수 있게 하는 네트워크 기기이다.
+<code>공유기</code> 란 하나의 공인IP(Public Domain)를 가지고 여러대의 PC가 인터넷에 접속할 수 있게 하는 네트워크 기기이다.
 
 **공유기를 쓰는 이유**
 

@@ -33,6 +33,7 @@ module.exports = {
           ['WEB/web-basic', 'World Wide Web'],
           ['WEB/html', 'HTML'],
           ['WEB/css', 'CSS'],
+          ['WEB/servlet', 'Servlet'],
         ],
       },
       {

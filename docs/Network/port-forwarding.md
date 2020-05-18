@@ -6,7 +6,7 @@ Port forwarding이란? <Badge text="song" />
 Port
 ----
 
-port란 네트워크 서비스나 컴퓨터 내의 특정 프로세스를 구별/식별하는 '논리 단위'이다.  
+<code>port</code> 란 네트워크 서비스나 컴퓨터 내의 특정 프로세스를 구별/식별하는 '논리 단위'이다.  
 쉽게 풀이하면 우편물을 배송할 때, 집 주소에 해당하는 것이 IP이고 받는 사람에 해당하는 것이 Port이다.
 
 ### Well-Known-Port
@@ -25,7 +25,7 @@ http의 포트는 80이므로 웹 서버는 기본적으로 80번 포트로 운�
 Port forwarding
 ---------------
 
-Port forwarding이란 특정 Port로 들어오는 패킷을 다른 Port로 바꿔서 재전송해 주는 기능이다.  
+<code>Port forwarding</code> 이란 특정 Port로 들어오는 패킷을 다른 Port로 바꿔서 재전송해 주는 기능이다.  
 쉽게 풀이하면 우편부가 주소와 이름을 보고 정확한 장소로 우편을 배송할 수 있도록 하는 역할
 
 예시로  

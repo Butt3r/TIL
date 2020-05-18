@@ -1,4 +1,4 @@
-Recursion - 1 <Badge text="song" />
+Recursion Alogrithm <Badge text="song" />
 ===================================
 
 > 자기자신을 호출하는 함수

@@ -1,4 +1,4 @@
-정렬(sort) <Badge text="song" />
+Sort(정렬) Alogrithm <Badge text="song" />
 ================================
 
 > n개의 숫자를 사용자가 지정한 기준으로 순서대로 정렬하는 알고리즘
