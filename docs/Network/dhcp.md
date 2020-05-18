@@ -6,7 +6,7 @@ DHCP란 무엇인가 <Badge text="song" />
 DHCP
 ----
 
-<code>DHCP</code>란 Dynamic Host Configuration Protocol의 줄임말이며 호스트 IP 구성 및 TCP/IP 통신을 실행하기 위해 필요한 기본 설정을 클라이언트에게 동적으로 할당할 수 있게 제공해준다.
+<code>DHCP</code> 란 Dynamic Host Configuration Protocol의 줄임말이며 호스트 IP 구성 및 TCP/IP 통신을 실행하기 위해 필요한 기본 설정을 클라이언트에게 동적으로 할당할 수 있게 제공해준다.
 
 다른 말로는 동적 호스트 구성 프로토콜이라 한다.
 
