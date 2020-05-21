@@ -117,11 +117,11 @@ public class MergeSort {
 ### Divide(분할)과 Conquer(정복)
 
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기" width= "400px" height="122px" />  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기" width= "490px" height="122px" />  
 <br>
 <br> 
 
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" width= "471px" height="188px" />  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" width= "561px" height="188px" />  
 <br>
 <br> 
 
