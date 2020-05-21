@@ -1,20 +1,28 @@
 Merge sort <Badge text="song" />
 ================
 
-## Merge sort란
+## 합병 정렬이란
 
-합병 정렬(merge sort)은 존 폰 노이만(John von Neumann)이 고안한 방법으로 분할정복법 전략을 사용하는 정렬 알고리즘 중 하나이다.
-분할정복법이란 <code>Divide</code> <code>Conquer</code> <code>Combine</code> 의 단계를 거쳐 주어진 문제를 작은 단위로 나누어 해결하는 전략이다.
+합병 정렬(merge sort)은 존 폰 노이만(John von Neumann)이 고안한 방법으로   
+분할정복법 전략을 사용하는 정렬 알고리즘 중 하나이다.
+분할정복법이란 <code>Divide</code> <code>Conquer</code> <code>Combine</code> 의 단계를 거쳐 주어진 문제를 작은 단위로 나누어 해결하는 전략이다.   
+
 
 1. 분할  
+
 해결하고자 하는 문제를 **작은 크기의 동일한 문제**들로 분할 
+
 2. 정복  
+
 각각의 작은 문제를 **순환적**으로 해결 (재귀 사용)
-3. 합병
+
+3. 합병   
+
 작은 문제에 대한 해답을 **합하여** 원래 문제에 대한 해답을 구함 
 
+<br> 
 <br>  
-<img src="https://cdn.kastatic.org/ka-perseus-images/ace963383bea8d154f6abd1322a06a73b56b4628.png" alt="병합정렬_나누기" height="400px" />  
+<img src="https://cdn.kastatic.org/ka-perseus-images/ace963383bea8d154f6abd1322a06a73b56b4628.png" alt="병합정렬_나누기" height="600px" />  
 <br>
 <br> 
 
@@ -107,15 +115,15 @@ public class MergeSort {
 ```
 
 
-::: details 결과  
-[3, 5, 7, 9, 10, 11, 14, 22, 23, 32] 
-:::
-
+::: details 결과     
+[3, 5, 7, 9, 10, 11, 14, 22, 23, 32]    
+:::   
+<br>
 
 ### Divide(분할)
 
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기" height="150px" />  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기" height="60px" />  
 <br>
 <br> 
 
@@ -132,7 +140,7 @@ public class MergeSort {
 
 O(nlogn)   
 
-<img src="https://cdn.kastatic.org/ka-perseus-images/5fcbebf66560d8fc490de2a0d8a0e5b1d65c5c54.png" alt="병합정렬_정복" height="100px" />  
+<img src="https://cdn.kastatic.org/ka-perseus-images/5fcbebf66560d8fc490de2a0d8a0e5b1d65c5c54.png" alt="병합정렬_정복" height="400px" />  
 <br>
 <br> 
 
@@ -142,5 +150,5 @@ O(nlogn)
 
 ---
 
-이미지 출처 [sorting-algorithms-fundamentals](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)
+이미지 출처 [sorting-algorithms-fundamentals](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)   
 이미지 출처 [KhanAcademy-merge-sort](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
