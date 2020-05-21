@@ -20,12 +20,6 @@ Merge sort <Badge text="song" />
 
 작은 문제에 대한 해답을 **합하여** 원래 문제에 대한 해답을 구함 
 
-<br> 
-<br>  
-<img src="https://cdn.kastatic.org/ka-perseus-images/ace963383bea8d154f6abd1322a06a73b56b4628.png" alt="병합정렬_나누기" height="550px" />  
-<br>
-<br> 
-
 
 ## 합병 정렬 구현
 
@@ -123,17 +117,18 @@ public class MergeSort {
 ### Divide(분할)과 Conquer(정복)
 
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기" width= "600px" height="122px" />  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기" width= "400px" height="22px" />  
 <br>
 <br> 
 
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" width= "571px" height="188px" />  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" width= "471px" height="88px" />  
 <br>
 <br> 
 
 
 ## 시간복잡도
 
+<br>
  <img src="https://cdn.kastatic.org/ka-perseus-images/808e1b1b992aef56270b3fc2b9ecc1a68eba8988.png" alt="시간복잡도1" width= "442px" height="166px" />  
 <br>
 <br>
@@ -142,9 +137,10 @@ public class MergeSort {
 <br>
 <br>
 
- <img src=" https://cdn.kastatic.org/ka-perseus-images/e68e9cb6ffb2ceb7d9ed0ff39bb8b00a83c4b9c1.png" alt="시간복잡도3" width= "508px" height="299px" />  
+<img src="https://cdn.kastatic.org/ka-perseus-images/e68e9cb6ffb2ceb7d9ed0ff39bb8b00a83c4b9c1.png" alt="시간복잡도3" width= "508px" height="300px" />  
 <br>
 <br>
+
 
 <img src="https://cdn.kastatic.org/ka-perseus-images/5fcbebf66560d8fc490de2a0d8a0e5b1d65c5c54.png" alt="시간복잡도4" width= "528px" height="400px" />  
 <br>
