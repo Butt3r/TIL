@@ -123,7 +123,7 @@ public class MergeSort {
 ### Conquer(정복)
 
 <br> 
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" height="193px" />  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" height="132px" />  
 <br>
 <br> 
 <br> 
@@ -138,9 +138,9 @@ public class MergeSort {
 
 분할 단계는 입력 배열의 중간을 계산한다. <code>Θ(1)</code>의 실행시간   
 
-  - Θ(1)의 의미
+        - Θ(1)의 의미
 
-  Θ(1)이란 constant time을 의미하며 부분 배열에 크기와 상관없이 일정한 시간이 소요된다.   
+        Θ(1)이란 constant time을 의미하며 부분 배열에 크기와 상관없이 일정한 시간이 소요된다.   
 
 
 - 정복 단계   
@@ -158,11 +158,11 @@ public class MergeSort {
 
 
 <br>
- <img src="https://i.stack.imgur.com/33vP2.jpg" alt="시간복잡도1" width= "442px" height="166px" />  
+ <img src="https://i.stack.imgur.com/33vP2.jpg" alt="시간복잡도1" width = "488" height="301" />  
 <br>
-<br>
+<br>   
 
-:link: 참고[춤으로 이해하는 merge sort](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)
+:link: 참고 [춤으로 이해하는 merge sort](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)
 
 
 ---
