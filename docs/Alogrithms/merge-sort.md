@@ -8,15 +8,15 @@ Merge sort <Badge text="song" />
 분할정복법이란 <code>Divide</code> <code>Conquer</code> <code>Combine</code> 의 단계를 거쳐 주어진 문제를 작은 단위로 나누어 해결하는 전략이다.   
 
 
-##### 1. 분할(Divide)     
+#### 1. 분할(Divide)     
 
 해결하고자 하는 문제를 **작은 크기의 동일한 문제**들로 분할 
 
-##### 2. 정복(Conquer)   
+#### 2. 정복(Conquer)   
 
 각각의 작은 문제를 **순환적**으로 해결 (재귀 사용)
 
-##### 3. 합병(Combine)    
+#### 3. 합병(Combine)    
 
 작은 문제에 대한 해답을 **합하여** 원래 문제에 대한 해답을 구함 
 
@@ -114,15 +114,20 @@ public class MergeSort {
 :::   
 <br>
 
-### Divide(분할)과 Conquer(정복)
+### Divide(분할)
 
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기" width= "490px" height="122px" />  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기"  height="122px" />  
 <br>
 <br> 
+<br> 
 
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" width= "561px" height="188px" />  
+### Conquer(정복)
+
+<br> 
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" height="196px" />  
 <br>
+<br> 
 <br> 
 
 
