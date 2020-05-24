@@ -123,7 +123,7 @@ public class MergeSort {
 ### Conquer(정복)
 
 <br> 
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" height="132px" />  
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" height="190px" />  
 <br>
 <br> 
 <br> 
@@ -153,21 +153,14 @@ public class MergeSort {
 부분 집합들을 하나로 합치는 단계로, 최대 n번의 비교 연산이 필요하다. <code>Θ(n)<code>의 실행시간   
 
 
-
 따라서, T(n) = 2T(n/2)+Θ(n) = <code>Θ(nlog2​n)<code>
-
-
-<br>
- <img src="https://i.stack.imgur.com/33vP2.jpg" alt="시간복잡도1" width = "488" height="301" />  
-<br>
-<br>   
+ 
 
 :link: 참고 [춤으로 이해하는 merge sort](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)
 
 
 ---
 
-이미지 출처 [sorting-algorithms-fundamentals](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)   
-이미지 출처 [stack overflow](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)   
-참고 [KhanAcademy-merge-sort](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
+이미지 출처 [sorting-algorithms-fundamentals](https://www.globalsoftwaresupport.com/sorting-algorithms-fundamentals)        
+참고 [KhanAcademy-merge-sort](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)   
 
