@@ -5,7 +5,7 @@ Merge sort <Badge text="song" />
 
 합병 정렬(merge sort)은 존 폰 노이만(John von Neumann)이 고안한 방법으로   
 분할정복법 전략을 사용하는 정렬 알고리즘 중 하나이다. 여기서 분할정복법이란,         
-<code>Divide</code> <code>Conquer</code> <code>Combine</code> 의 단계를 거쳐 주어진 문제를 작은 단위로 나누어 해결하는 전략을 말한다. 
+<code>Divide</code> <code>Conquer</code> <code>Combine</code> 단계를 거쳐 주어진 문제를 작은 단위로 나누어 해결하는 전략을 말한다. 
 
 
 ## 합병 정렬 과정
@@ -111,7 +111,7 @@ public class MergeSort {
             }
         }
 
-        // 남은 요소들 자동 정렬
+        // 남은 요소들 정렬
         while(i<=mid)
             tmp[k++] = arr[i++];
         while(j<=right)
@@ -135,24 +135,25 @@ public class MergeSort {
 
 
 쉽게 이해가지 않을 땐 아래 참고
+   
+:link: [visualgo](https://visualgo.net/en/sorting)     
+알고리즘을 시각화해서 보여주는 사이트
 
-알고리즘을 시각화해서 보여주는 사이트   
-:link: [visualgo](https://visualgo.net/en/sorting)   
+:link: [merge sort dance](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)   
 합병 정렬을 춤으로 표현한 영상   
-:link: [merge sort dance](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)
-
 
 ## 시간복잡도
 
-합병 정렬은 `Θ(nlog​n)` 의 시간복잡도를 가진다.
-
+합병 정렬은 결과적으로 이야기해서 `Θ(nlog​n)` 의 시간복잡도를 가진다.
+퀵 정렬과 비교했을때 속도는 더 느리지만 모든 경우에도 `Θ(nlog​n)`을 보장한다는 점이 효율적이다.
+<code>Divide</code> <code>Conquer</code> <code>Combine</code> 이 세가지 단계로 합병 정렬의 소요 시간을 이해해본다.
 
 ### 분할 단계 
 
 > `Θ(1)`   
 
-- n이 1인 경우엔 비교 연산을 하지 않는다.
-- 그렇지 않은 경우엔 입력 배열의 중간을 계산한다.  
+- n이 1인 경우, 비교 연산을 하지 않는다.
+- n이 1 이상인 경우, 입력 배열의 중간을 계산한다.  
 - `Θ(1)`은 constant time을 의미하기 때문에 부분 배열에 크기와 상관없이 일정한 시간이 소요된다.     
 
 
@@ -160,7 +161,7 @@ public class MergeSort {
 
 > `2T(n/2)`
 
-- 정복 단계는 n/2개의 요소를 가진 부분 배열들을 재귀적으로 정렬한다.
+- n/2개의 요소를 가진 부분 배열들을 재귀적으로 정렬한다.
 - 왼쪽 정렬(T(n/2)) + 오른쪽 정렬(T(n/2)) 
 
 
@@ -169,7 +170,7 @@ public class MergeSort {
 > `Θ(n)` 
 
 - 호출 레벨은 자료의 수가 n개일 때 logn을 유지하게된다. (k = logn)
-- 자료의 수가 16개라면 2^4므로 호출레벨은 4가 된다.
+- 예로 자료의 수가 16개라면 2^4므로 호출레벨은 4가 된다.
 - 부분 집합들을 하나로 합치는 단계로, 최대 n번의 비교 연산이 필요하다.
 
   
@@ -188,7 +189,7 @@ public class MergeSort {
 
 ---
  
-참고 [wiki](https://ko.wikipedia.org/wiki/%ED%95%A9%EB%B3%91_%EC%A0%95%EB%A0%AC)
-참고 [KhanAcademy-merge-sort](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)   
+참고 [wiki](https://ko.wikipedia.org/wiki/%ED%95%A9%EB%B3%91_%EC%A0%95%EB%A0%AC)   
+참고 [KhanAcademy-merge-sort](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)      
 참고 [합병 정렬](https://chayan-memorias.tistory.com/110)
 
