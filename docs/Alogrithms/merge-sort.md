@@ -21,6 +21,7 @@ Merge sort <Badge text="song" />
 작은 문제에 대한 해답을 **합하여** 원래 문제에 대한 해답을 구함 
 
 
+
 ## 합병 정렬 구현
 
 수도코드
@@ -30,7 +31,7 @@ mergeSort(arr[], p, r) // arr[p...r]을 정렬함
 {
     if(p < r) then
     {
-        q <- (p+q)/2; // p, q의 중간 지점 계산
+        q <- (p+r)/2; // p, q의 중간 지점 계산
         mergeSort(arr, p, q); // 전반부 정렬
         mergeSort(arr. q+1. r); // 후반부 정렬
         mergeSort(arr, p, q, r); // 합병
@@ -43,6 +44,24 @@ merge(arr[], p, q, r)
     정렬된 하나의 배열 arr[p...r]을 만든다.
 }
 ```
+
+수도 코드를 기준으로 합병 정렬 알고리즘 과정을 간략하게 살펴보겠다.
+
+- 첫번째
+  - 두번째
+    - 세번째
+      - 네번째
+        - 다섯번째
+          - 여섯번째
+
+
+1. 리스트(list)의 길이가 1 이하인 경우
+
+
+
+
+
+
 
 
 자바로 구현한 코드
@@ -112,51 +131,58 @@ public class MergeSort {
 ::: details 결과     
 [3, 5, 7, 9, 10, 11, 14, 22, 23, 32]    
 :::   
-<br>   
-
-### Divide(분할)
-
 <br>  
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-video-to-gif-15.gif" alt="병합정렬_나누기"  height="122px" />  
-<br>
 
-### Conquer(정복)
-
-<br> 
-<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2019/09/ezgif.com-crop-5-1.gif" alt="병합정렬_정복" height="190px" />  
-<br>
-<br> 
-<br> 
+:link: [merge sort dance](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)
 
 
 ## 시간복잡도
 
-합병 정렬은 결과적으로 이야기해서 **Θ(nlog2​n)**의 시간복잡도를 가졌다.
-<code>분할</code> <code>정복</code> <code>결합</code>의 세가지 단계를 거쳐 소요되는 시간을 알아보겠다.
+합병 정렬은 `Θ(nlog2​n)` 의 시간복잡도를 가지며 
 
 - 분할 단계   
 
-분할 단계는 입력 배열의 중간을 계산한다. <code>Θ(1)</code>의 실행시간   
+분할 단계는 입력 배열의 중간을 계산한다.   
+`Θ(1)` 의 실행시간   
 
-        - Θ(1)의 의미
+  - Θ(1)의 의미
+    
+    Θ(1)이란 constant time을 의미하며 부분 배열에 크기와 상관없이 일정한 시간이 소요된다.  
 
-        Θ(1)이란 constant time을 의미하며 부분 배열에 크기와 상관없이 일정한 시간이 소요된다.   
+    - 세번째
+      - 네번째
+        - 다섯번째
+          - 여섯번째
 
 
 - 정복 단계   
 
-정복 단계는 n/2개의 요소를 가진 부분 배열들을 재귀적으로 정렬한다. <code>2T(n/2)</code>의 실행시간   
+정복 단계는 n/2개의 요소를 가진 부분 배열들을 재귀적으로 정렬한다.   
+<code>2T(n/2)</code> 의 실행시간   
 
 
 - 결합 단계   
 
-부분 집합들을 하나로 합치는 단계로, 최대 n번의 비교 연산이 필요하다. <code>Θ(n)<code>의 실행시간   
+부분 집합들을 하나로 합치는 단계로, 최대 n번의 비교 연산이 필요하다.   
+<code>Θ(n)</code> 의 실행시간   
 
 
-따라서, T(n) = 2T(n/2)+Θ(n) = <code>Θ(nlog2​n)<code>
- 
+<br>
+- 최종
+T(n) = 2T(n/2)+Θ(n) = <code>Θ(nlog2​n)<code>
 
-:link: 참고 [춤으로 이해하는 merge sort](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)
+
+
+## 홀수일 경우
+
+
+
+
+
+
+<br>
+
+
 
 
 ---
