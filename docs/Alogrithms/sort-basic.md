@@ -23,7 +23,7 @@ Sort Alogrithm <Badge text="song" />
 ## 1. Selection sort (선택 정렬)
 
 
-수도코드
+#### Pseudo Code
 
 ```java
 slesction(arr[], n)
@@ -38,7 +38,7 @@ swap arr[k] <--> arr[last]; //arr[k]와 arr[last]의 값을 교환
 
 <br>
 
-자바로 구현한 코드 (최대값)
+#### JAVA (최대값)
 
 ```java
 public class Selection {
@@ -114,7 +114,7 @@ public class Selection {
 ## 2. bubble sort (거품 정렬)
 
 
-수도코드
+#### Pseudo Code
 
 ```java
 bubble(arr[], n)
@@ -129,7 +129,7 @@ if(arr[i]>arr[i+1]) then swap arr[i] <-> arr[i+1]; // arr[i] 바로 옆에 있�
 
 <br>
 
-자바로 구현한 코드
+#### JAVA
 
 ```java
 public static void bubbleSort(int[] arr, int n) {
@@ -161,7 +161,7 @@ selection sort와 같이 최악, 최고, 평균과 상관없이 시간복잡도�
 ## 3. insertion sort (삽입 정렬)
 
 
-수도코드
+#### Pseudo Code
 
 ```java
 insertion(arr[], n)
@@ -175,7 +175,7 @@ insertion(arr[], n)
 
 <br>
 
-자바로 구현한 코드
+#### JAVA
 
 ```java
 public static void insertionSort(int[] arr, int n) {
