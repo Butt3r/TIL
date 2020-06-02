@@ -126,7 +126,7 @@ module.exports = {
   },
 
 
-  plugins:['@vuepress/back-to-top'],
+  // plugins:['@vuepress/back-to-top'],
 
   postcss: {
     plugins: [
