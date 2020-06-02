@@ -20,10 +20,10 @@ module.exports = {
         ],
       },
       {
-        title: 'CS',
+        title: 'Git',
         collapsable: true,
         children: [
-          ['Computer Science/stored-programmed-computer', 'Stored programmed'],
+          ['Git/git-basic', 'Git 기초'],
         ],
       },
       {
@@ -90,7 +90,7 @@ module.exports = {
         collapsable: true,
         children: [
           ['/Alogrithms/recursion-1', 'Recursion'],
-          ['/Alogrithms/recursion-2', 'Recursion2'],
+          ['/Alogrithms/recursion-2', 'Recursion(2)'],
           ['/Alogrithms/recursion-maze', 'Recursion 응용'],
           ['/Alogrithms/sort-basic', 'Basic Sorts'],
           ['/Alogrithms/merge-sort', 'Merge sort'],
@@ -125,6 +125,7 @@ module.exports = {
     lineNumbers: true
   },
 
+    plugins: ['vuepress-plugin-smooth-scroll'],
     plugins: ['@vuepress/back-to-top'],
     
    }
