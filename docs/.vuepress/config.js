@@ -125,12 +125,12 @@ module.exports = {
     ],
   },
 
-  plugins: ['@vuepress/back-to-top'],
-
   postcss: {
     plugins: [
       require('css-prefers-color-scheme/postcss'),
-      require('autoprefixer')
+      require('autoprefixer'),
+
+      ['@vuepress/back-to-top'],
     ]
   },
 
@@ -138,6 +138,7 @@ module.exports = {
     lineNumbers: true
   },
     
+
    }
   
 
