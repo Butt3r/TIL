@@ -5,7 +5,11 @@ module.exports = {
   title: 'BUTT3R',
   description: 'TIL Document',
 
+  theme: 'default-prefers-color-scheme',
   themeConfig: {
+
+    defaultTheme: { light: [6, 18], dark: [18, 6] },
+
     nav: [
       { text: 'Blog', link: 'https://butt3r.github.io/'}
     ],
@@ -119,6 +123,13 @@ module.exports = {
         ],
       },
     ],
+  },
+
+  postcss: {
+    plugins: [
+      require('css-prefers-color-scheme/postcss'),
+      require('autoprefixer')
+    ]
   },
 
     markdown: {
