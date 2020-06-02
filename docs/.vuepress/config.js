@@ -125,6 +125,8 @@ module.exports = {
     ],
   },
 
+  plugins: ['@vuepress/back-to-top'],
+
   postcss: {
     plugins: [
       require('css-prefers-color-scheme/postcss'),
@@ -135,9 +137,6 @@ module.exports = {
     markdown: {
     lineNumbers: true
   },
-
-    plugins: ['vuepress-plugin-smooth-scroll'],
-    plugins: ['@vuepress/back-to-top'],
     
    }
   
