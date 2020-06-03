@@ -7,7 +7,7 @@
 
 깃(Git)을 사용하기 위해 가장 먼저 저장소(Repository)를 만든다.
 
-#### 1. 로컬 디렉토리를 깃 저장소로 사용하는 방법
+1. 로컬 디렉토리를 깃 저장소로 사용하는 방법
 
 ```sh
 $ mkdir testRepo # testRepo란 폴더를 생성
@@ -17,7 +17,7 @@ $ cd testRepo # testRepo로 이동
 $ git init # 현재 폴더를 git에게 버젼관리를 시킴 
 ```
 
-#### 2. 깃 저장소를 로컬 디렉토리에 복사하는 방법
+2. 깃 저장소를 로컬 디렉토리에 복사하는 방법
 
 ```sh
 $ git clone <repo url> # 해당 저장소를 현재 위치에 복사
@@ -74,7 +74,7 @@ $ git config --global user.email "이메일"
 
 ## 버전 생성 (status, add, commit, push)
 
-워킹 디렉토리(Working Directory) 내부에서 변경된 사항을 Commit 하기 위해
+워킹 디렉토리(Working Directory) 내부에서 변경된 사항을 Commit 하기 위해   
 필요한 명령어들을 알아본다.
 
 ```sh
@@ -83,7 +83,7 @@ $ git status # 현재 파일의 상태를 확인한다.
 
 저장소를 생성한 직후에 `git status` 명령어를 쓰면 다음과 같은 메세지가 뜬다.
 
-```
+```sh
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -106,8 +106,8 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
-이전과는 달리 hello.txt파일이 뜨며 현재 Untracked 상태임을 알려준다.
-hello.txt 파일을 Tracked로 바꾸려면 `git add` 명령어로 Staging Area에 올려야한다.
+이전과는 달리 hello.txt파일이 뜨며 현재 Untracked 상태임을 알려준다.   
+hello.txt 파일을 Tracked로 바꾸기위해 `git add` 명령어로 Staging Area에 올린다.
 
 ```sh
 $ git add hello.txt # hello.txt 파일을 Staging Area에 등록한다.
@@ -141,8 +141,8 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 ```
-일단은 유일한 파일이였던 hello.txt가 Tracked로 바뀌면서
-버전으로 만들 파일이 없다고 말하고 있다.
+유일한 파일이였던 hello.txt가 Tracked로 바뀌면서   
+Untracked 파일이 없어졌다. (버전으로 만들 파일이 없는 상태) 
 
 `git log` 명령어로 버전이 잘 만들어졌는지 확인한다.
 
