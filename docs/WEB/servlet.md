@@ -9,7 +9,7 @@
 ### Servlet 특징
 
 - Java 확장자 프로그램(Server side)   
-    - JVM위에서 동작하므로 플랫폼에 독립적
+- JVM위에서 동작하므로 플랫폼에 독립적
 - Java thread 이용하여 동작   
 - MVC 패턴에서 **Controller** 역할   
 - html을 사용하여 요청에 응답
@@ -21,7 +21,7 @@
 
  ## Servlet 동작 과정
 
-`Servlet` 은 서버에서 실행되는 작은 조각(Server Application let)과 같다.
+`Servlet` 은 서버에서 실행되는 작은 조각(Server Application let)과 같다.   
 모든 웹 애플리케이션은 적어도 한 개 이상의 Servlet으로 구성되어 있으며
 동적인 페이지를 작성하기 위해 Servlet을 필요로 한다.
 
@@ -29,14 +29,12 @@
 동작 과정은 다음과 같다.
 
 <br>
-<img src="https://myblog.opendocs.co.kr/wp-content/uploads/2014/09/multithread.png" alt="서블릿" height="400px" />  
+<img src="https://myblog.opendocs.co.kr/wp-content/uploads/2014/09/multithread.png" alt="서블릿" height="330px" />  
 <br>
-<br>
-
 
 1. 클라이언트(broser)의 URL 요청
 
-- URL 요청이 Servlet 요청이란 것을 알기위해 URL과 Servlet 클래스를 미리 매핑(mapping)시킨
+- URL 요청이 Servlet 요청이란 것을 알기위해 URL과 Servlet 클래스를 미리 매핑(mapping)시킨   
 배포 서술자(Deployment Desciptor)가 필요하다.(web.xml)
 
 2. Web server가 HTTP Request를 Servlet Container로 전송한다.
@@ -45,12 +43,12 @@
 
 3. web.xml을 보고 어떤 URL과 매핑(Mapping)되어있는지 확인한다.
 
-- 요청 URL을 보고 어떤 Servlet 클래스를 필요로 하는지 알아냄
+- 요청 URL을 보고 어떤 Servlet 클래스를 필요로 하는지 알아낸다.
 
 4. Servlet 객체와 스레드를 생성한다.
 
 - 한번도 실행된 적이 없거나 메모리에 생성된 객체가 없다면 (새로 Servlet 객체 생성)메모리에 로드하고 init() 메소드를 실행하여 초기화한다.
-- 만약 이전에 생성한 객체가 있다면 **객체를 다시 생성하지 않는다.**(객체 재활용)
+- 만약 이전에 생성한 객체가 있다면 **객체를 다시 생성하지 않는다.** (객체 재활용)
 - Web container에서 새로운 스레드를 만들거나 하나를 할당한다.
 
 5. Web container에서 service() 메소드를 호출한다.
@@ -63,13 +61,15 @@
 Web container가 웹 서버로 전송한다.
 - service() 메소드가 끝나면 HttpServletRequest와 HttpServletResponse를 소멸하고 스레드 종료
 
+<br>
+
 > 여기서 WAS(Web Application Server)란 웹을 기반으로 실행되는 프로그램으로 Servlet의 life cycle을 담당한다.
 
 
   
 ## Servlet life cycle(생명주기)
 
-어떤 객체의 생성부터 소멸까지의 과정을 life cycle라고 말한다.
+어떤 객체의 생성부터 소멸까지의 과정을 life cycle라고 말한다.   
 간단하게 `Servlet`의 생명주기가 어떻게 돌아가는지 알아보겠다.
 
 
@@ -102,13 +102,13 @@ Web container가 웹 서버로 전송한다.
 
 ### HttpServletRequest
 
-- Http프로토콜의 request 정보를 서블릿에게 전달하기 위한 목적으로 사용
+- Http프로토콜의 request 정보를 서블릿에게 전달하기 위한 목적으로 사용한다.
 - Header정보, Parameter, Cookie, URI, URL 등의 정보를 읽어들이는 메소드를 가진 클래스
-- Body의 Stream을 읽어들이는 메소드를 가지고 있음
+- Body의 Stream을 읽어들이는 메소드를 가지고 있다.
 
 ### HttpServletResponse
 
-- Servlet은 HttpServletResponse객체에 Content Type, 응답코드, 응답 메시지등을 담아서 전송함
+- Servlet은 HttpServletResponse객체에 Content Type, 응답코드, 응답 메시지등을 담아서 전송한다.
 
 
 ## Servlet 설정
