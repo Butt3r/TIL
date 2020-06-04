@@ -208,6 +208,6 @@ num: 10
 
 
 ---
-참고[자바 중금 - 어노테이션](https://programmers.co.kr/learn/courses/9/lessons/269)   
-참고[Annotaiaon value - stackoverflow](https://stackoverflow.com/questions/10682935/get-annotation-value)   
-참고[Annotation과 Reflection이란?](https://qssdev.tistory.com/27)   
+참고 [자바 중금 - 어노테이션](https://programmers.co.kr/learn/courses/9/lessons/269)   
+참고 [Annotaiaon value - stackoverflow](https://stackoverflow.com/questions/10682935/get-annotation-value)   
+참고 [Annotation과 Reflection이란?](https://qssdev.tistory.com/27)   

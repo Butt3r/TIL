@@ -145,7 +145,7 @@ public class HelloWorld extends HttpServlet
 
 ## HTML Form
 
-`HTML Form` -> `Servle`t -> `HTML Page`   
+`HTML Form` -> `Servlet` -> `HTML Page`   
 HTML의 form 태그는 서버쪽으로 정보를 전달할 때 사용하는 태그이다.
 
 
