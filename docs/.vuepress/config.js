@@ -80,6 +80,7 @@ module.exports = {
           ['Network/port-forwarding', 'Port forwarding'],
           ['Network/dhcp', 'DHCP'],
           ['Network/dns', 'DNS'],
+          ['Network/http', 'HTTP'],
         ],
       },
       {

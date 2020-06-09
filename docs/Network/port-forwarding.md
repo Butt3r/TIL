@@ -20,7 +20,7 @@ http의 포트는 80이므로 웹 서버는 기본적으로 80번 포트로 운�
 :::  
 <br>
 
-참고 [포트 목록](https://ko.wikipedia.org/wiki/TCP/UDP%EC%9D%98_%ED%8F%AC%ED%8A%B8_%EB%AA%A9%EB%A1%9D)
+참고 :link: [포트 목록](https://ko.wikipedia.org/wiki/TCP/UDP%EC%9D%98_%ED%8F%AC%ED%8A%B8_%EB%AA%A9%EB%A1%9D)
 
 Port forwarding
 ---------------
