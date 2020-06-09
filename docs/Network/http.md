@@ -76,11 +76,9 @@ TCP규약과 IP규약을 합친 프로토콜이다.
 
 <br>
 <br>
-<img src="https://k.kakaocdn.net/dn/b61RrM/btqEKxLq16C/TI4NDye9prgotzz20rqKhK/img.png" alt="tcp/ip 계층"  height="350px" />  
+<img src="https://evan-moon.github.io/static/eaf99e668d4cb90c964bcff2ad9bcb9e/d3f96/osi.png" alt="tcp/ip 계층"  height="350px" />  
 <br>
 <br>
-
-> 좌 `TCP/IP` 모델 우 `OSI Layer 7` 모델
 
 
 - 응용 계층 
