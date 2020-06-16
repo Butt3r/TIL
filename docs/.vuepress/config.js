@@ -87,7 +87,7 @@ module.exports = {
         title: 'Linux',
         collapsable: true,
         children: [
-          ['Linux/LX', 'lx'],
+          ['Linux/LX', 'Linux 시작하기'],
         ],
       },
       {
@@ -113,7 +113,7 @@ module.exports = {
         title: 'Docker',
         collapsable: true,
         children: [
-          ['Docker/SH', 'sh'],
+          ['Docker/SH', 'Docker 기초'],
         ],
       },
       {
