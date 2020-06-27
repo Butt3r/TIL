@@ -54,21 +54,21 @@ module.exports = {
         title: 'Spring',
         collapsable: true,
         children: [
-          ['Spring/about-spring', 'Spring 메모'],
+          ['Spring/spring-note', 'Spring 메모'],
         ],
       },
       {
         title: 'Spring boot',
         collapsable: true,
         children: [
-          ['Spring boot/s', 'Spring boot 시작하기'],
+          ['Spring boot/about-springboot', 'Spring boot'],
         ],
       },
       {
         title: 'DataBase',
         collapsable: true,
         children: [
-          ['Database/SQ', 'test'],
+          ['Database/SQ', 'Mysql'],
         ],
       },
       {
@@ -95,7 +95,7 @@ module.exports = {
         collapsable: true,
         children: [
           ['/Alogrithms/recursion-1', 'Recursion'],
-          ['/Alogrithms/recursion-2', 'Recursion(2)'],
+          ['/Alogrithms/recursion-2', 'Recursion 2'],
           ['/Alogrithms/recursion-maze', 'Recursion 응용'],
           ['/Alogrithms/sort-basic', 'Basic Sorts'],
           ['/Alogrithms/merge-sort', 'Merge sort'],
