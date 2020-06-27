@@ -65,9 +65,9 @@ C에 해당하는 <code>Controller</code> 는 Model과 View 사이에서 매개�
 
 
 ---
-참고 [디자인 패턴 - MVC 패턴](https://medium.com/@jang.wangsu/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-mvc-%ED%8C%A8%ED%84%B4%EC%9D%B4%EB%9E%80-1d74fac6e256)
-참고 [MVC 패턴이란](https://m.blog.naver.com/jhc9639/220967034588)
-이미지 참고 [MVC](https://developer.mozilla.org/ko/docs/Glossary/MVC)
+참고 [디자인 패턴 - MVC 패턴](https://medium.com/@jang.wangsu/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-mvc-%ED%8C%A8%ED%84%B4%EC%9D%B4%EB%9E%80-1d74fac6e256)   
+참고 [MVC 패턴이란](https://m.blog.naver.com/jhc9639/220967034588)   
+이미지 참고 [MVC](https://developer.mozilla.org/ko/docs/Glossary/MVC)   
 
 
 
