@@ -1,4 +1,4 @@
-# Spring boot Framworks song <Badge text="song" />
+# Spring boot Framworks <Badge text="song" />
 
 ## Spring
 

@@ -4,6 +4,8 @@ module.exports = {
   base: '/TIL/',
   title: 'BUTT3R',
   description: 'TIL Document',
+  plugins: '@vuepress/back-to-top',
+  
 
   theme: 'default-prefers-color-scheme',
   themeConfig: {
@@ -133,7 +135,6 @@ module.exports = {
     ]
   },
 
-  plugins: ['@vuepress/back-to-top'],
 
     markdown: {
     lineNumbers: true
