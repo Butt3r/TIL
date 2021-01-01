@@ -150,6 +150,7 @@ public static void bubbleSort(int[] arr, int n) {
 :::
 
 selection sort와 같이 최악, 최고, 평균과 상관없이 시간복잡도는 같다.  
+하지만 처리 속도는 bubble sort가 slection sort보다 실질적으로 두배 정도 느리다.
 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)
 
 <br>  
@@ -199,8 +200,8 @@ public static void insertionSort(int[] arr, int n) {
 :::
 
 최악의 경우 i-1번까지 비교하게되어 (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)  
-평균적으로는 셀렉션이나 버블보다 절반정도의 시간복잡도를 가짐  
-최선의 경우 O(n)
+bubble이나 selection과 시간복잡도가 같으며 평균적으로도 마찬가지이다.   
+반대로 최선의 경우 O(n)
 
 <br>  
 <img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2017/02/ezgif.com-video-to-gif-13-1.gif" alt="삽입정렬" height="200px" />  
