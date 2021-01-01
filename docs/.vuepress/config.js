@@ -53,6 +53,13 @@ module.exports = {
         ],
       },
       {
+        title: 'JS',
+        collapsable: true,
+        children: [
+          ['JS/javascript', 'About JS'],
+        ],
+      },
+      {
         title: 'Spring',
         collapsable: true,
         children: [
