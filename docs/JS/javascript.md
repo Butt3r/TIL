@@ -23,8 +23,63 @@ HTML과 javascript 서로 다른 두 언어를 웹에서 어떻게 같이 사용
 
 ### 1. script 태그
 ---
-HTML에서 
 
+먼저 기본적인 HTML 코드는 다음과 같다.
+```html
+<!-- html5 설정 -->
+<!DOCTYPE html> 
+<html>
+
+    <!-- html의 컨테이너 역할  -->
+    <head> 
+        <!-- 문자 셋을 UTF-8로 렌더링 -->
+	    <meta charset="UTF-8" />
+         <!-- 웹 페이지의 제목 -->
+        <title></title>
+    </head>
+
+    <body>
+    <!-- 웹 페이지에 담을 모든 콘텐츠 -->
+    </body>
+
+</html>
+```
+우리가 보는 웹 사이트들은 위와 같은 형태의 html이 존재하며 <code>script</code>는 이러한 html 문서 안에서 자바스크립트를 동작할 수 있게 도와주는 태그이다.   
+   
+
+<code>script</code>를 사용하는 방법은 두 가지가 있다.     
+첫번째는 직접 코드를 작성하는 방식이고 두번째는 외부 스크립트를 불러오는 방식이다. 이 글에서는 첫번째 방식을 사용해 간단한 텍스트를 웹 페이지에 띄워보겠다.
+
+```html
+ <body>
+    <h1>javascript</h1>
+    <script>
+      document.write("Hello world");
+    </script>
+
+    <h1>html</h1>
+    Hello world
+  </body>
+```
+   
+> 정적 언어와의 차이점을 보여주기 위해 html에도 똑같은 텍스트를 작성했다.
+
+<br>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUSFVI%2FbtqSZx5T0dZ%2Fbd2KjY3BMQN8vP0eOMdck1%2Fimg.png" alt="html과 js기초" height="400px" />  
+<br>
+
+결과화면을 보니 별다른 차이가 보이지않는다. 둘은 정말 차이점이 없을까? <code>script</code>에 들어간 코드를 조금 수정해보자   
+
+<br>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsMpvC%2FbtqSX70GuRI%2FQToL8WOf148px08r8rbAp1%2Fimg.png" alt="html과 js기초2" height="400px" />  
+<br>
+
+1+1을 집어넣으니 자바스크립트는 2, html은 1+1을 그대로 출력했다. 왜 이런 차이점이 존재할까? 그 이유는 앞에서 이야기했듯이 html은 정적이기 때문에 1+1을 문자 그대로 화면에 출력했지만 자바스크립트는 1+1을 동적으로 처리하여 2를 출력한 것을 알 수 있다.
+
+
+더 자세한건 아래 참고
+:link: [부스트코스 - 웹프로그래밍 DOMContentLoaded 이벤트](https://www.boostcourse.org/web316/lecture/20141)
+:link: [HTML <script>태그](http://www.tcpschool.com/html-tags/script)
 
 
 ### 2. 이벤트
@@ -40,6 +95,8 @@ HTML에서
 ::: tip   
 이 글은 부스트코스 서포터즈 3기 활동의 일환으로 작성했습니다.
 :::  
+
+---
 
 
 
