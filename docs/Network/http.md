@@ -111,7 +111,7 @@ TCP규약과 IP규약을 합친 프로토콜이다.
 많은 리소스가 필요하기 때문이다. 리소스 요청 마다 3-way hand shake를 수행하게되면
 그 만큼 여러번의 연결을 끊고 맺음이 발생하기 때문에 상당히 비효율적이다.
 
-> 3-way hand shake 개념 :link: [참고](https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-22%ED%8E%B8-TCP-3-WayHandshake-4-WayHandshake)
+> 3-way hand shake 개념 [참고](https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-22%ED%8E%B8-TCP-3-WayHandshake-4-WayHandshake)
 
 ### 2. 지속 연결(Persistent Connection)
 

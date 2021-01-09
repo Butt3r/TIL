@@ -13,11 +13,11 @@ JS(자바스크립트)란 <Badge text="boostcourse" />
 
 ## 자바스크립트의 특징
 
-자바스크립트는 대표적인 동적 언어(Dynamically Typed Language)이다. 여기서 동적의 의미는 웹 페이지 상에서 사용자와 상호작용(interaction)하거나 애니메이션(animation)과 같은 움직이는 콘텐츠의 구현을 말한다. 더 정확하게 표현하자면 동적 언어는 컴파일이 아닌 런타임에 타입이 결정되는 언어란 뜻으로 이러한 특징이 A라는 행동을 했을 때 B라는 이벤트가 발생하게 한다.
+자바스크립트는 대표적인 동적 언어(Dynamically Typed Language)이다. 여기서 동적의 의미는 웹 페이지 상에서 사용자와 상호작용(interaction)하거나 애니메이션(animation)과 같이 움직이는 콘텐츠의 구현을 말한다. 더 정확하게 표현하자면 동적 언어는 컴파일이 아닌 런타임에 타입이 결정되는 언어란 뜻으로 이러한 특징이 A라는 행동을 했을 때 B라는 이벤트가 발생하게 한다.
 
 
 
-## HTML과 자바스크립트의 만남 
+## HTML과 자바스크립트 
 
 <code>HTML</code>과 <code>javascript</code> 서로 다른 두 언어를 웹에서 어떻게 같이 사용할 수 있는지 알아본다.
 
@@ -47,8 +47,9 @@ JS(자바스크립트)란 <Badge text="boostcourse" />
 우리가 보는 웹 사이트들은 위와 같은 형태의 html이 존재하며 `<script>`는 이러한 html 문서 안에서 자바스크립트를 동작할 수 있게 도와주는 태그이다.   
    
 
-script 태그를 사용하는 방법은 두 가지가 있다.     
-첫번째는 직접 코드를 작성하는 방식이고 두번째는 외부 스크립트를 불러오는 방식이다. 이 글에서는 첫번째 방식을 사용해 간단한 텍스트를 웹 페이지에 띄워보겠다.
+`<script>`를 사용하는 방법은 두 가지가 있다.     
+첫번째는 직접 코드를 작성하는 방식이고 두번째는 외부 스크립트를 불러오는 방식이다.   
+이 글에서는 첫번째 방식을 사용해 간단한 텍스트를 웹 페이지에 띄워보겠다.
 
 ```html
  <body>
@@ -64,12 +65,15 @@ script 태그를 사용하는 방법은 두 가지가 있다.
    
 > 두 언어간의 차이점을 보여주기 위해 html에 같은 텍스트를 작성했다.
 
-::: 결과   
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYU2Bp%2FbtqS4Nz7tqB%2FEUr8tg4gsJ1Lfz65pC8iX0%2Fimg.png" alt="html과 js기초" height="400px" />  
+   
+::: details 결과  
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYU2Bp%2FbtqS4Nz7tqB%2FEUr8tg4gsJ1Lfz65pC8iX0%2Fimg.png" alt="html과 js기초" height="350px" />   
 :::   
+    
 
 
-결과화면을 보니 둘 사이의 별다른 차이가 보이지않는다. 둘은 정말 같은걸까? `<script>`에 들어간 코드를 조금 수정해보자      
+결과화면을 보니 둘 사이의 별다른 차이가 보이지않는다.   
+둘은 정말 같은걸까? `<script>`에 들어간 코드를 조금 수정해보자      
 
 ```html
  <body>
@@ -84,18 +88,54 @@ script 태그를 사용하는 방법은 두 가지가 있다.
 ```
 
 
-
-::: 결과   
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdoN62P%2FbtqSV9ybptd%2FtddEJDil5fHcZjjvDwgKM0%2Fimg.png" alt="html과 js기초2" height="400px" />  
-:::   
-
+::: details 결과  
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdoN62P%2FbtqSV9ybptd%2FtddEJDil5fHcZjjvDwgKM0%2Fimg.png" alt="html과 js기초2" height="350px" />
+:::        
+     
 
 1+1을 집어넣으니 자바스크립트는 2, html은 1+1을 그대로 출력했다. 왜 이런 차이점이 존재할까? 그 이유는 앞에서 이야기했듯이 html은 **정적**이기 때문에 1+1을 문자 그대로 화면에 출력했지만 자바스크립트는 1+1을 **동적**으로 처리하여 2를 출력한 것을 알 수 있다.
 
 
-### 2. 이벤트
+### 2. 이벤트(Event)
 ---
 
+이벤트는 브라우저 상에서 사용자가 클릭을 하거나, 스크롤을 내리거나, 입력한 값을 제출할 때와 같이 사용자 동작에서 일어나는 어떠한 사건을 의미한다.
+자바스크립트에서 이벤트는 사용자와 상호작용하는데에 핵심적인 역할을 하며 웹 애플리케이션을 보다 사용자 친화적으로 만들어 준다.   
+
+이번 글에서는 그 중에서 자주 사용되는 대표적인 [DOM](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/%EC%86%8C%EA%B0%9C) 이벤트 몇가지를 알아보겠다.
+
+#### onClick 
+
+`click` 이벤트는 마우스로 특정 요소를 클릭했을 때 발생한다.   
+그리고 `onClick` 은 이러한 이벤트를 리스닝하는 이벤트 리스너이다. 
+
+어떻게 동작하는지 예제로 알아보자
+```html
+  <body>
+    <h1>onClick</h1>
+    <input type="button" value="sayHi" onclick="alert('Hi!')">
+  </body>
+</html>
+```
+위 코드를 실행해보면 버튼을 클릭했을 때 "Hi!"라는 메세지가 [alert](https://developer.mozilla.org/ko/docs/Web/API/Window/alert)경고창과 함께 뜨는 것을 확인할 수 있다.
+
+::: details 결과  
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlyMZm%2FbtqSXkl3DT9%2Fg9vt5SxIeHTFZ3UBihjEC1%2Fimg.png" alt="html과 js기초2" height="350px" />
+:::   
+
+어떻게 가능할까? 먼저, 이벤트 리스너는 말 그대로 어떠한 이벤트를 듣고 있는 대기 상태를 말한다. 그리고 웹 브라우저는 해당 이벤트 리스너의 속성을 기억하고 있다가 특정 이벤트가 발생하면 리스너에 등록된 코드를 실행한다.
+
+여기서는 onClick이 곧 이벤트 리스너이고 웹 브라우저는 onClick에 등록된 코드 즉, `"alert('Hi!')"`을 자바스크립트 문법에 맞게 해석하여 코드를 실행시킨 것이다.
+
+이외에도 자주 접하게 될 onSubmit, onChange, onKeydown 등도 동일한 과정을 거친다.   
+더 많은 이벤트가 궁금하다면 아래 참고
+[이벤트](https://developer.mozilla.org/ko/docs/Web/Events)
+
+
+### 3. 콘솔(Console)
+---
+
+자바스크립트를 사용하다보면 [디버깅](https://ko.wikipedia.org/wiki/%EB%94%94%EB%B2%84%EA%B7%B8)이 필요한 순간이 온다.
 
 
 
@@ -110,17 +150,17 @@ script 태그를 사용하는 방법은 두 가지가 있다.
 
 
 
-
-
-
-
+::: tip
+부스트코스 서포터즈 3기 활동의 일환으로 작성되었습니다.
+:::
 
 
 
 ---
-더 자세한건 아래 참고
-:link: [부스트코스 - 웹프로그래밍 DOMContentLoaded 이벤트](https://www.boostcourse.org/web316/lecture/20141)   
-:link: [HTML <script>태그](http://www.tcpschool.com/html-tags/script)   
+참고 [부스트코스 - 웹프로그래밍 DOMContentLoaded 이벤트](https://www.boostcourse.org/web316/lecture/20141)   
+참고 [HTML <script>태그](http://www.tcpschool.com/html-tags/script)   
+
+
 
 
 

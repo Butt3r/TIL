@@ -136,10 +136,10 @@ public class MergeSort {
 
 쉽게 이해가지 않을 땐 아래 참고
    
-:link: [visualgo](https://visualgo.net/en/sorting)     
+[visualgo](https://visualgo.net/en/sorting)     
 알고리즘을 시각화해서 보여주는 사이트
 
-:link: [merge sort dance](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)   
+[merge sort dance](https://www.youtube.com/watch?v=dENca26N6V4&feature=emb_title)   
 합병 정렬을 춤으로 표현한 영상   
 
 ## 시간복잡도

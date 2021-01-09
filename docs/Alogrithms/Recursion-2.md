@@ -99,8 +99,6 @@ public class StringPrint {
 !54321     
 :::
 
-[참고](https://xmfpes.github.io/algorithm-study/daily-algorithm-02/)
-
 
 ## 3. 배열의 합 (Linear Sum)
 
@@ -127,9 +125,6 @@ public class SumArrtest {
 ::: details 결과   
 45        
 :::
-
-[참고](https://ledgku.tistory.com/64)
-
 
 ## 4. 그 외
 

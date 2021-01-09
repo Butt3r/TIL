@@ -101,6 +101,6 @@ DNS 기본 동작
 
 ------------------
 
-이미지 출처 [데이터 통신과 컴퓨터 네트워크](https://terms.naver.com/imageDetail.nhn?docId=2271996&imageUrl=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F3578_000_1%2F20141023224649357_CGWCGY0RK.jpg%2Fka8_209_i1.jpg%3Ftype%3Dm4500_4500_fst_n%26wm%3DY)
-참고 [인터넷 이용의 기반 DNS의 이해와 DNS 보안](https://www.kisa.or.kr/uploadfile/201310/201310071959231513.pdf)
+이미지 출처 [데이터 통신과 컴퓨터 네트워크](https://terms.naver.com/imageDetail.nhn?docId=2271996&imageUrl=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F3578_000_1%2F20141023224649357_CGWCGY0RK.jpg%2Fka8_209_i1.jpg%3Ftype%3Dm4500_4500_fst_n%26wm%3DY)   
+참고 [인터넷 이용의 기반 DNS의 이해와 DNS 보안](https://www.kisa.or.kr/uploadfile/201310/201310071959231513.pdf)   
 참고 [DNS 기본 동작 원리](https://www.netmanias.com/ko/post/techdocs/5259/dns-network-protocol/dns-basic-operation)
