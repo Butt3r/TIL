@@ -181,7 +181,7 @@ console.log(10 + 20);
 
 ---
 참고 [부스트코스 - 웹프로그래밍 DOMContentLoaded 이벤트](https://www.boostcourse.org/web316/lecture/20141)   
-참고 [HTML <script>태그](http://www.tcpschool.com/html-tags/script)   
+참고 [HTML script태그](http://www.tcpschool.com/html-tags/script)   
 
 
 
