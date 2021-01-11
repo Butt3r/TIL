@@ -35,8 +35,7 @@ console.log(10 / 5); // 2
 
 더 자세한건
 
-참고 [infinity]([https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Infinity](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Infinity))       
-
+참고 [infinity]([https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Infinity](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Infinity))   
 참고 [NaN]([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN))    
 
 ## 문자형(String)
@@ -47,7 +46,7 @@ console.log(10 / 5); // 2
 
 - 큰 따옴표 `""`
 - 작은 따옴표 `''`
-- 백틱(backtick) ````
+- 백틱(backtick) <code>``</code>
 
 큰 따옴표와 작은 따옴표의 역할은 같다. 다만 백틱의 경우는 조금 특별한데 `${...}` 을 사용하여 손쉽게 특정 값이나 표현식을 문자열 안에 삽입할 수 있다.
 
@@ -59,8 +58,8 @@ alert("1+3 result is: 1+3");
 
 ::: details 결과  
 1+3 result is: 1+3
-1+3 result is: 4
-:::  
+1+3 result is: 4    
+:::     
 
 
 결과를 확인해보면 알 수 있듯이 백틱을 사용한 경우에만 "1+3"이 연산된 것을 알 수 있다.    
@@ -71,8 +70,8 @@ alert("1"+"3");
 ```
 
 ::: details 결과  
-13
-:::  
+13   
+:::     
 
 4가 아니라 말 그대로 "1"과 "3"을 그대로 가져다붙인 13이 나온 것을 알 수 있다. 만약 문자로 입력된 값을 Number와 마찬가지로 연산하고 싶다면 [형변환]([https://opentutorials.org/course/1223/5330](https://opentutorials.org/course/1223/5330))이란 것을 해야한다. 이는 나중에 따로 포스팅 하도록 하겠다.
 
@@ -89,10 +88,9 @@ alert("1"+"3");
 
 문자열의 길이를 알려주는 `length` , 모든 문자를 대문자로 변환해주는 `toUppercase()` 그리고 반대로 모든 문자를 소문자로 변환해주는 `toLowercase()` , 마지막으로 해당 문자에 속한 인덱스의 위치를 알려주는 `indexOf` 를 알아봤다.
 
-이 외에도 자바스크립트에는 강력한 기능의 문자열 내장함수들이 다수 포함되어 있다.
-
+이 외에도 자바스크립트에는 강력한 기능의 문자열 내장함수들이 다수 포함되어 있다.   
 자세한건 참고 [String]([https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String))
 
-
+<br>
 
 💚 **부스트코스 서포터즈 3기 활동의 일환으로 작성되었습니다.**
