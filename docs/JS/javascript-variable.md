@@ -118,15 +118,15 @@ maxNum = 1000;
 - 키워드 다음으로 변수명을 쓴다. 이때 변수명은 대소문자를 구분한다.
 - 변수명의 첫 글자로 숫자가 올 수 없다.
 - 변수명에 `-` 를 포함할 수 없다.
-- 변수명은 [예약어]([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords)) 와 같을 수 없다.
+- 변수명은 [예약어](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords) 와 같을 수 없다.
 - 대입 연산자 `=` 를 사용하여 변수에 변수값을 대입시킨다.
 - 값이 변경되면, 이전의 저장된 값들은 삭제된다.
 - 변수에는 지역변수(Local Variable)와 전역변수(Global Variable)가 존재한다.
 
 <br>   
 
-참고 [scope]([https://poiemaweb.com/es6-block-scope](https://poiemaweb.com/es6-block-scope))   
-참고 [지역변수와 전역변수]([https://velog.io/@rememberme_jhk/JS-Scope-지역-변수-전역-변수](https://velog.io/@rememberme_jhk/JS-Scope-%EC%A7%80%EC%97%AD-%EB%B3%80%EC%88%98-%EC%A0%84%EC%97%AD-%EB%B3%80%EC%88%98))   
+참고 [scope](https://poiemaweb.com/es6-block-scope)   
+참고 [지역변수와 전역변수](https://velog.io/@rememberme_jhk/JS-Scope-%EC%A7%80%EC%97%AD-%EB%B3%80%EC%88%98-%EC%A0%84%EC%97%AD-%EB%B3%80%EC%88%98)   
 
 ## 상수
 
@@ -146,10 +146,10 @@ TypeError
 :::      
 
 
-[read-only]([https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Errors/Read-only](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Errors/Read-only))라는 에러가 뜬다.    
+[read-only](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Errors/Read-only)라는 에러가 뜬다.    
 
-이렇게 상수는 말 그대로 **고정된 수**이므로 상수를 재할당하면 에러가 발생한다.   
-상수는 오로지 **읽기**만 가능하고 대입을 통한 수정이 불가능 한 점을 기억해야한다. 
+이렇듯 상수는 말 그대로 **고정된 수**이므로 재할당하려는 시도엔 에러가 발생한다.
+상수는 오로지 **읽기**만 가능하고 대입을 통한 수정이 불가능 한 점을 기억하자
 
 그럼 상수는 언제 사용할까?
 
@@ -171,8 +171,8 @@ MAX_NUM = 1000;
 
 <br>      
 
-참고 [상수]([https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#상수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#%EC%83%81%EC%88%98))      
-참고 [상수 - c언어]([http://www.tcpschool.com/c/c_datatype_constant](http://www.tcpschool.com/c/c_datatype_constant))   
+참고 [상수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#%EC%83%81%EC%88%98)      
+참고 [상수 - c언어](http://www.tcpschool.com/c/c_datatype_constant)   
 
 <br>
 
