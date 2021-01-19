@@ -1,3 +1,8 @@
+---
+tags: ["boostcourse", "JS"]
+---
+
+
 JS(자바스크립트)란 <Badge text="boostcourse" />
 ================
 
@@ -177,7 +182,7 @@ console.log(10 + 20);
 **:green_heart: 부스트코스 서포터즈 3기 활동의 일환으로 작성되었습니다.**
 
 
-
+<TagLinks />
 
 ---
 참고 [부스트코스 - 웹프로그래밍 DOMContentLoaded 이벤트](https://www.boostcourse.org/web316/lecture/20141)   

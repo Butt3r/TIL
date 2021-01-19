@@ -1,5 +1,5 @@
 ---
-tags: ["boostcourse ", "JS"]
+tags: ["boostcourse", "JS"]
 ---
 
 
