@@ -145,9 +145,9 @@ module.exports = {
     ],
   },
 
-  plugins: [
-    ["@vuepress/back-to-top"]
-  ],
+  // plugins: [
+  //   ["@vuepress/back-to-top"]
+  // ],
 
     markdown: {
     lineNumbers: true
