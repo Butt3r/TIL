@@ -13,7 +13,7 @@ module.exports = {
     defaultTheme: { light: [6, 18], dark: [18, 6] },
 
     nav: [
-      {text: "Tag", link: "/tag/" },
+      // {text: "Tag", link: "/tag/" },
       {text: 'Blog', link: 'https://butt3r.github.io/'},
     ],
     sidebar: [
