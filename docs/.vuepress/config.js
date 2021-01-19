@@ -140,14 +140,14 @@ module.exports = {
 
   postcss: {
     plugins: [
-      [
       require('css-prefers-color-scheme/postcss'),
       require('autoprefixer')
     ],
-    ["@vuepress/back-to-top"]
-  ]
   },
 
+  plugins: [
+    ["@vuepress/back-to-top"]
+  ],
 
     markdown: {
     lineNumbers: true
