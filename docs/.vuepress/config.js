@@ -1,10 +1,10 @@
 // docs/.vuepress/config.js
 
+
 module.exports = {
   base: '/TIL/',
   title: 'BUTT3R',
   description: 'TIL Document',
-  plugins: '@vuepress/back-to-top',
   
 
   theme: 'default-prefers-color-scheme',
@@ -13,7 +13,8 @@ module.exports = {
     defaultTheme: { light: [6, 18], dark: [18, 6] },
 
     nav: [
-      { text: 'Blog', link: 'https://butt3r.github.io/'}
+      {text: "Tag", link: "/tag/" },
+      {text: 'Blog', link: 'https://butt3r.github.io/'},
     ],
     sidebar: [
       '/',
@@ -139,9 +140,12 @@ module.exports = {
 
   postcss: {
     plugins: [
+      [
       require('css-prefers-color-scheme/postcss'),
       require('autoprefixer')
-    ]
+    ],
+    ["@vuepress/back-to-top"]
+  ]
   },
 
 

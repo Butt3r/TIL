@@ -1,3 +1,9 @@
+---
+tags: ["boostcourse", "js"]
+---
+
+
+
 변수와 상수 <Badge text="boostcourse" />
 ================
 
@@ -177,3 +183,5 @@ MAX_NUM = 1000;
 <br>
 
 💚 **부스트코스 서포터즈 3기 활동의 일환으로 작성되었습니다.**
+
+<TagLinks />
