@@ -6,10 +6,12 @@
           :to="{ path: `/tags.html#${tag}`}"
           class="header-anchor"
           aria-hidden="true">#</router-link>
-        {{tag}}
+        {{ tag }}
       </h2>
       <ul>
         <li v-for="page in tags[tag]">
+        <p>{{page}}</p>
+        <p>{{page.title}}</p>
           <router-link
             :to="{ path: page.path}">{{page.title}}</router-link>
         </li>

@@ -10,7 +10,7 @@ module.exports = {
   theme: 'default-prefers-color-scheme',
   themeConfig: {
 
-    defaultTheme: { light: [6, 18], dark: [18, 6] },
+    defaultTheme: { light: [7, 19], dark: [19, 7] },
 
     nav: [
       // {text: "Tag", link: "/tag/" },
