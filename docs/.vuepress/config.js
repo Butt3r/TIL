@@ -137,17 +137,15 @@ module.exports = {
       },
     ],
   },
-
+  plugins: [
+    '@vuepress/back-to-top'
+            ],
   postcss: {
     plugins: [
       require('css-prefers-color-scheme/postcss'),
       require('autoprefixer')
     ],
   },
-
-  // plugins: [
-  //   ["@vuepress/back-to-top"]
-  // ],
 
     markdown: {
     lineNumbers: true

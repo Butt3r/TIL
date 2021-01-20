@@ -1,5 +1,5 @@
 ---
-title: JS - 자바스크립트란
+title: JS(자바스크립트)란
 meta:
   - name: description
     content: JS(자바스크립트)란
@@ -10,7 +10,7 @@ meta:
   - property: og:url
     content: https://butt3r.github.io/TIL/JS/javascript.html
 
-tags: ["boostcourse", "JS"]
+tags: ["BOOSTCOURSE", "JS", "부스트코스 서포터즈 3기", WEB"]
 ---
 
 JS(자바스크립트)란 <Badge text="boostcourse" />
@@ -119,7 +119,7 @@ JS(자바스크립트)란 <Badge text="boostcourse" />
 
 이번 글에서는 그 중에서 자주 사용되는 대표적인 [DOM](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/%EC%86%8C%EA%B0%9C) 이벤트 한 가지를 알아보겠다.
 
-#### onClick 
+### onClick 
 
 `click` 이벤트는 마우스로 특정 요소를 클릭했을 때 발생한다.   
 그리고 `onClick` 은 이러한 이벤트를 리스닝하는 이벤트 리스너이다. 
@@ -187,19 +187,14 @@ console.log(10 + 20);
 <br>
 <br>
 
-
-
-**:green_heart: 부스트코스 서포터즈 3기 활동의 일환으로 작성되었습니다.**
-
-
-<TagLinks />
-
----
 참고 [부스트코스 - 웹프로그래밍 DOMContentLoaded 이벤트](https://www.boostcourse.org/web316/lecture/20141)   
-참고 [HTML script태그](http://www.tcpschool.com/html-tags/script)   
+참고 [HTML script태그](http://www.tcpschool.com/html-tags/script)  
 
+<br>
+ 
 
-
+---   
+<TagLinks />
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: JS - 자료형
+title: 자바스크립트의 자료형
 meta:
   - name: description
     content: 자바스크립트의 자료형
@@ -10,7 +10,7 @@ meta:
   - property: og:url
     content: https://butt3r.github.io/TIL/JS/javascript-data-type.html
     
-tags: ["boostcourse", "JS"]
+tags: ["BOOSTCOURSE", "JS", "부스트코스 서포터즈 3기", WEB"]
 ---
 
 
@@ -110,7 +110,6 @@ alert("1"+"3");
 
 <br>
 
-💚 **부스트코스 서포터즈 3기 활동의 일환으로 작성되었습니다.**
 
-
+---
 <TagLinks />

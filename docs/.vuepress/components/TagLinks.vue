@@ -1,5 +1,6 @@
 <template lang="html">
   <div>
+  🏷️ 
     <router-link
       v-for="tag in $page.frontmatter.tags"
       :key="tag"
@@ -8,4 +9,13 @@
     </router-link>
   </div>
 </template>
+
+<style scoped>
+.tags{
+  margin: 30px 0;
+  color: #fff;
+}  
+
+
+</style>
 
