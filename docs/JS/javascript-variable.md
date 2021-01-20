@@ -1,4 +1,15 @@
 ---
+title: JS - 변수와 상수
+meta:
+  - name: description
+    content: 변수와 상수
+  - property: og:title
+    content: 변수와 상수
+  - property: og:description
+    content: 변수와 상수
+  - property: og:url
+    content: https://butt3r.github.io/TIL/JS/javascript-variable.html
+    
 tags: ["boostcourse", "JS"]
 ---
 

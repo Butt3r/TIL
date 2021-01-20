@@ -1,4 +1,15 @@
 ---
+title: JS - 자료형
+meta:
+  - name: description
+    content: 자바스크립트의 자료형
+  - property: og:title
+    content: 자바스크립트의 자료형
+  - property: og:description
+    content: 자바스크립트의 자료형
+  - property: og:url
+    content: https://butt3r.github.io/TIL/JS/javascript-data-type.html
+    
 tags: ["boostcourse", "JS"]
 ---
 

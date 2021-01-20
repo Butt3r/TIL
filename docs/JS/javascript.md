@@ -1,7 +1,17 @@
 ---
+title: JS - 자바스크립트란
+meta:
+  - name: description
+    content: JS(자바스크립트)란
+  - property: og:title
+    content: JS(자바스크립트)란
+  - property: og:description
+    content: JS(자바스크립트)란
+  - property: og:url
+    content: https://butt3r.github.io/TIL/JS/javascript.html
+
 tags: ["boostcourse", "JS"]
 ---
-
 
 JS(자바스크립트)란 <Badge text="boostcourse" />
 ================
