@@ -59,7 +59,8 @@ module.exports = {
         children: [
           ['JS/javascript', 'About JS'],
           ['JS/javascript-data-type', 'Data type'],
-          ['JS/javascript-variable', 'Variable']
+          ['JS/javascript-variable', 'Variable'],
+          ['JS/javascript-Control-flow-1', 'Conditional statements'],
         ],
       },
       {
