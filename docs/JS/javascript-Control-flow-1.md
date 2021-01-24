@@ -1,12 +1,12 @@
 ---
-title: 조건문
+title: 자바스크립트의 조건문
 meta:
   - name: description
-    content: 조건문
+    content: 자바스크립트의 조건문
   - property: og:title
-    content: 조건문
+    content: 자바스크립트의 조건문
   - property: og:description
-    content: 조건문
+    content: 자바스크립트의 조건문
   - property: og:url
     content: https://butt3r.github.io/TIL/JS/javascript-data-type.html
     
@@ -56,7 +56,7 @@ alert(2 < 1);
 
 이유는 1과 2는 같지않고 2보다 1이 큰 것은 사실이 아니므로 **거짓** 이기 때문이다.
 
-이렇게 참이냐 거짓이냐를 표현하는 [데이터타입]([https://butt3r.github.io/TIL/JS/javascript-data-type.html](https://butt3r.github.io/TIL/JS/javascript-data-type.html))을 **불리언(boolean)** 이라 부른다. 다른 말로는 논리 자료형이라고도 하며 오로지 `True` 와 `False` 두가지 값만을 가진다. 
+이렇게 참이냐 거짓이냐를 표현하는 [데이터타입](https://butt3r.github.io/TIL/JS/javascript-data-type.html)을 **불리언(boolean)** 이라 부른다. 다른 말로는 논리 자료형이라고도 하며 오로지 `True` 와 `False` 두가지 값만을 가진다. 
 
 ## 조건문
 
