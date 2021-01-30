@@ -151,3 +151,8 @@ if(document.querySelector("#nigth_day2").value === 'day'){
 ```
 중복된 부분이 사라져 처음과 비교해 훨씬 가독성이 좋아졌다. 또한 `target` 변수가 선언된 부분만 수정하면 변수가 사용된 코드들도 같이 수정되므로 굉장히 편리해진 것을 알 수 있다.
 
+<br>
+
+
+---
+<TagLinks />
