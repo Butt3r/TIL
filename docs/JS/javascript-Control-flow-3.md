@@ -91,7 +91,8 @@ document.write('<li>3</li>');
 }
 ```
 
-이런 식으로 표현해도 결과는 같다. 반복문의 조건식은 조건문과 마찬가지로 결과값이 불리언 형태이기 때문이다. 
+이런 식으로 표현해도 결과는 같다.   
+반복문의 조건식은 조건문과 마찬가지로 결과값이 불리언 형태이기 때문이다. 
 
 한가지 주의할 점은 `while` 문은 다음과 같은 코드에서 **무한 반복**이 발생하니 필수적으로 [break](http://codingnuri.com/javascript-tutorial/javascript-break-statement.html) 와 같은 종료문을 넣어줘야한다.
 
@@ -145,9 +146,9 @@ console.log(animal[2]);
 ```
 
 ::: details 결과       
-kitty
-bunny
-pony  
+kitty   
+bunny   
+pony    
 ::: 
 
 실행해보면 정상적으로 animal 배열의 모든 요소들이 출력됐음을 알 수 있다. 게다가 조건식에 숫자를 대신해 `animal.length` 를 넣었기 때문에 설령 배열의 요소가 변동된다해도 자동으로 반복 횟수를 맞출 것이다.

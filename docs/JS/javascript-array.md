@@ -20,7 +20,6 @@ tags: ["BOOSTCOURSE", "JS", "부스트코스 서포터즈 3기", "WEB"]
 > 부스트코스 [자바스크립트의 시작](https://www.boostcourse.org/cs124/lecture/194613) 수업을 듣고 정리한 자료입니다.
 
 
-반복문과 함께 자주 사용되는 `배열` 에 대해 알아보겠다.
 
 ## 배열이란?
 
@@ -53,9 +52,9 @@ console.log(animal[1]);
 console.log(animal[2]);
 ```
 ::: details 결과       
-kitty
-bunny
-pony  
+kitty   
+bunny   
+pony     
 ::: 
 
 
@@ -81,7 +80,8 @@ animal 배열에 들어간 값들이 달라진 것을 알 수 있다.
 
 ## 배열의 활용
 
-자바스크립트엔 다양한 배열 관려한 [내장 함수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array#)들이 존재한다. 이번 글에서는 그 중에 자주 쓰이는 몇가지를 알아보고자 한다.
+자바스크립트엔 다양한 배열 관려한 [내장 함수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array#)들이 존재한다.   
+이번 글에서는 그 중에 자주 쓰이는 몇가지를 알아보고자 한다.
 
 ### Array.length
 
