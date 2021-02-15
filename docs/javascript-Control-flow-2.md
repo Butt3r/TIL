@@ -8,7 +8,7 @@ meta:
   - property: og:description
     content: 조건문의 활용
   - property: og:url
-    content: https://butt3r.github.io/TIL/JS/javascript-data-type.html
+    content: https://butt3r.github.io/TIL/javascript-Control-flow-2.html
     
 tags: ["BOOSTCOURSE", "JS", "부스트코스 서포터즈 3기", "WEB"]
 ---

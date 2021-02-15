@@ -61,6 +61,8 @@ module.exports = {
           ['JS/javascript-data-type', 'Data type'],
           ['JS/javascript-variable', 'Variable'],
           ['JS/javascript-Control-flow-1', 'Conditional statements'],
+          ['JS/javascript-array', 'Array'],
+          ['JS/javascript-Control-flow-3', 'Loops'],
         ],
       },
       {
