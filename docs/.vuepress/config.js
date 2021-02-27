@@ -63,6 +63,10 @@ module.exports = {
           ['JS/javascript-Control-flow-1', 'Conditional statements'],
           ['JS/javascript-array', 'Array'],
           ['JS/javascript-Control-flow-3', 'Loops'],
+          ['JS/javascript-function', 'Function'],
+          ['JS/javascript-parameter', 'Parameters'],
+          ['JS/javascript-return', 'Return'],
+
         ],
       },
       {
